@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Vitality - Start Bootstrap</title>
+    <title>ATDev.me</title>
     <!-- Custom fonts for this theme -->
     <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -32,15 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#process">Process</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="portfolioDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                    <div class="dropdown-menu shadow border-0" aria-labelledby="portfolioDropdown"><a class="dropdown-item js-scroll-trigger" href="#portfolio-carousel">Carousel</a><a class="dropdown-item js-scroll-trigger" href="#portfolio-grid">Grid</a></div>
-                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://themes.startbootstrap.com/vitality-v3.0.1/docs/index.html">Documentation</a></li>
             </ul>
         </div>
     </div>
@@ -68,7 +63,7 @@
 <section class="page-section text-center bg-light" id="about">
     <div class="container">
         <h2 class="page-section-heading text-uppercase">About Me</h2>
-        <p class="lead m-0">I am an individual with years of experience, here to help your developing needs.</p>
+        <p class="lead m-0">I am an individual with years of experience, here to help with your development needs.</p>
         <hr class="primary small mb-5" />
         <div class="row">
             <div class="col-6">
@@ -144,7 +139,7 @@
 <!-- * * * * * * * * * * * * * * * * *-->
 <!-- * Portfolio Section - Carousel  *-->
 <!-- * * * * * * * * * * * * * * * * *-->
-<section id="portfolio-carousel bg-light">
+<section id="portfolio" class="bg-light">
     <div class="text-center">
         <h2 class="page-section-heading text-uppercase">Portfolio</h2>
         <p class="lead m-0">Here are some projects that we've worked on.</p>
@@ -470,24 +465,14 @@
 <!-- * * * * * *-->
 <footer class="footer text-center text-white-50">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h5 class="text-uppercase"><i class="fas fa-mobile-alt fa-fw"></i>Call</h5>
-                <a class="text-white-50" href="#">555-123-4567</a>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h5 class="text-uppercase"><i class="fas fa-map-marker-alt fa-fw"></i>Visit</h5>
-                <div>3481 Melrose Place<br />Beverly Hills, CA 90210</div>
-            </div>
-            <div class="col-lg-4">
+            <div class="col align-self-center">
                 <h5 class="text-uppercase"><i class="fas fa-envelope fa-fw"></i>Email</h5>
-                <a class="text-white-50" href="mailto:mail@example.com">mail@example.com</a>
+                <a class="text-white-50" href="mailto:mail@example.com">info@atdev.me</a>
             </div>
-        </div>
         <div class="footer-social">
             <a class="px-3 text-white-50" href="#"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a><a class="px-3 text-white-50" href="#"><i class="fab fa-twitter fa-2x fa-fw"></i></a><a class="px-3 text-white-50" href="#"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a>
         </div>
-        <div class="footer-copyright">&copy; 2020 Start Bootstrap</div>
+        <div class="footer-copyright">&copy; 2021 ATDev.me</div>
     </div>
 </footer>
 <!-- Bootstrap core JavaScript-->
