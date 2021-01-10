@@ -11,3 +11,5 @@ T
 $resources/views/pages/home.blade.php,0\e\0e6ada4d198796f76cd54d71dd729ca4f210568e
 =
 composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
+E
+public/css/styles.css,c\c\ccef9d2f34fd679a4eef74f96b59af18a3b918cc
