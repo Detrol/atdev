@@ -98,7 +98,7 @@
 <!-- * * * * * * * * * *-->
 <!-- * Process Section *-->
 <!-- * * * * * * * * * *-->
-<section class="page-section bg-light" id="process">
+<section class="page-section" id="process">
     <div class="container">
         <h2 class="page-section-heading text-uppercase text-center">{!! __("home.process_head") !!}</h2>
         <p class="lead m-0 text-center">{!! __("home.process_title") !!}</p>
@@ -227,7 +227,7 @@
 <!-- * * * * * * * * * * * * * * *-->
 <!-- * Portfolio Section - Grid  *-->
 <!-- * * * * * * * * * * * * * * *-->
-<section class="page-section" id="portfolio">
+<section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
             <h2 class="page-section-heading text-uppercase">{!! __("home.portfolio_head") !!}</h2>
@@ -404,7 +404,7 @@
 <!-- * * * * * * * * * * * * *-->
 <!-- * Testimonials Section  *-->
 <!-- * * * * * * * * * * * * *-->
-<section class="page-section bg-light" id="testimonials">
+<section class="page-section" id="testimonials">
     <div class="container">
         <h2 class="page-section-heading text-uppercase text-center">{!! __("home.testimonials_head") !!}</h2>
         <p class="lead m-0 text-center">{!! __("home.testimonials_title") !!}</p>
