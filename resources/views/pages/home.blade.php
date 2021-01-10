@@ -31,6 +31,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#start">Start</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#process">Process</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
@@ -43,7 +44,7 @@
 <!-- * * * * * * *-->
 <!-- * Masthead *-->
 <!-- * * * * * * *-->
-<header class="masthead masthead-full text-white">
+<header class="masthead masthead-full text-white" id="start">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col text-center">
