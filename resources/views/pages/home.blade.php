@@ -98,7 +98,7 @@
 <!-- * * * * * * * * * *-->
 <!-- * Process Section *-->
 <!-- * * * * * * * * * *-->
-<section class="page-section" id="process">
+<section class="page-section bg-light" id="process">
     <div class="container">
         <h2 class="page-section-heading text-uppercase text-center">{!! __("home.process_head") !!}</h2>
         <p class="lead m-0 text-center">{!! __("home.process_title") !!}</p>
