@@ -236,14 +236,15 @@
         </div>
         <div class="row no-gutters">
             <div class="col-lg-6 col-xl-4">
-                <a class="portfolio-grid-item" href="https://remindme.cloud" data-fancybox="gallery" data-caption="Caption #1"
-                ><span class="caption"
-                    ><span class="caption-content">
-                                <h2>Remindme.cloud</h2>
-                                <p class="mb-0">Cloud-based reminder system with personal calendar and events.</p></span
-                        ></span
-                    ><img class="img-fluid" src="{{ asset('assets/img/remindme1.PNG') }}" alt=""
-                    /></a>
+                <a class="portfolio-grid-item" href="https://remindme.cloud" target="_blank">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h2>Remindme.cloud</h2>
+                            <p class="mb-0">Cloud-based reminder system with personal calendar and events.</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{ asset('assets/img/remindme1.PNG') }}" alt=""/>
+                </a>
             </div>
         </div>
     </div>
