@@ -227,7 +227,7 @@
 <!-- * * * * * * * * * * * * * * *-->
 <!-- * Portfolio Section - Grid  *-->
 <!-- * * * * * * * * * * * * * * *-->
-<section class="page-section" id="portfolio-grid">
+<section class="page-section" id="portfolio">
     <div class="container">
         <div class="text-center">
             <h2 class="page-section-heading text-uppercase">{!! __("home.portfolio_head") !!}</h2>
