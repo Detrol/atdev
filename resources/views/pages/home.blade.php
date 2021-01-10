@@ -67,7 +67,7 @@
         <hr class="primary small mb-5" />
         <div class="row">
             <div class="col-12 col-md-6">
-                <img class="img-fluid rounded-circle" src="assets/img/me.jpg" alt="" />
+                <img class="img-fluid rounded-circle" src="{{ asset('assets/img/me.jpg') }}" alt="" />
             </div>
             <div class="col-12 col-md-6 text-left">
                 <h4>Hello!</h4>
@@ -244,7 +244,7 @@
                                 <h2>Remindme.cloud</h2>
                                 <p class="mb-0">Cloud-based reminder system with personal calendar and events.</p></span
                         ></span
-                    ><img class="img-fluid" src="assets/img/remindme1.png" alt=""
+                    ><img class="img-fluid" src="{{ asset('assets/img/remindme1.PNG') }}" alt=""
                     /></a>
             </div>
         </div>
