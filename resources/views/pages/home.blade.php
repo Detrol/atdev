@@ -66,10 +66,10 @@
         <p class="lead m-0">I am an individual with years of experience, here to help with your development needs.</p>
         <hr class="primary small mb-5" />
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <img class="img-fluid rounded-circle" src="assets/img/me.jpg" alt="" />
             </div>
-            <div class="col-6 text-left">
+            <div class="col-12 col-md-6 text-left">
                 <h4>Hello!</h4>
                 <p>My name is <span class="font-weight-normal">Andreas</span> and i have been working with web-development for more than 15 years, ever since i was a teenager.</p>
 
