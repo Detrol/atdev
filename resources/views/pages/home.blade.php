@@ -91,7 +91,7 @@
             <div class="col-xl-10 text-center">
                 <div class="callout-text text-white">Good <span class="text-primary">design</span> is finding that perfect balance between the way something <span class="text-primary">looks</span> and how it <span class="text-primary">functions</span>.</div>
                 <hr class="primary small mb-5" />
-                <a class="btn btn-outline-light js-scroll-trigger" href="#process">How we work</a>
+                <a class="btn btn-outline-light js-scroll-trigger" href="#process">How i work</a>
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
 <!-- * * * * * * * * * * * * * * * * *-->
 <!-- * Portfolio Section - Carousel  *-->
 <!-- * * * * * * * * * * * * * * * * *-->
-<section id="portfolio" class="bg-light">
+<!--<section id="portfolio" class="bg-light">
     <div class="text-center">
         <h2 class="page-section-heading text-uppercase">Portfolio</h2>
         <p class="lead m-0">Here are some projects that we've worked on.</p>
@@ -222,6 +222,30 @@
                         <a class="btn btn-outline-light" data-toggle="modal" data-target="#portfolio-modal-4" href="javascript:;">View Details<i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- * * * * * * * * * * * * * * *-->
+<!-- * Portfolio Section - Grid  *-->
+<!-- * * * * * * * * * * * * * * *-->
+<section class="page-section" id="portfolio-grid">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="page-section-heading text-uppercase">Portfolio</h2>
+            <p class="lead m-0">Here are some projects that i've worked on.</p>
+            <hr class="primary small mb-5" />
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-xl-4">
+                <a class="portfolio-grid-item" href="https://remindme.cloud" data-fancybox="gallery" data-caption="Caption #1"
+                ><span class="caption"
+                    ><span class="caption-content">
+                                <h2>Remindme.cloud</h2>
+                                <p class="mb-0">Cloud-based reminder system with personal calendar and events.</p></span
+                        ></span
+                    ><img class="img-fluid" src="assets/img/remindme1.png" alt=""
+                    /></a>
             </div>
         </div>
     </div>
@@ -385,7 +409,7 @@
 <section class="page-section bg-light" id="testimonials">
     <div class="container">
         <h2 class="page-section-heading text-uppercase text-center">Testimonials</h2>
-        <p class="lead m-0 text-center">What our clients has told us</p>
+        <p class="lead m-0 text-center">What my clients has told me</p>
         <hr class="primary small mb-5" />
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -416,8 +440,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-8 mx-auto">
-                <h2 class="page-section-heading text-uppercase text-center">Contact Us</h2>
-                <p class="lead m-0 text-center">Let us about your next project and we will let you know what we can do to help you!</p>
+                <h2 class="page-section-heading text-uppercase text-center">Contact Me</h2>
+                <p class="lead m-0 text-center">Let me about your next project and i will let you know what i can do to help you!</p>
                 <hr class="primary small mb-5" />
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row control-group">
