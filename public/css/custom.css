@@ -475,3 +475,8 @@ textarea.form-control {
         margin-bottom: 0;
     }
 }
+
+.custom-centered {
+    margin: 0 auto;
+    width: 300px;
+}

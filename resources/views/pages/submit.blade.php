@@ -32,6 +32,13 @@
     <link href="css/styles.css" rel="stylesheet"/>
 
     <script src="css/custom.css"></script>
+
+    <style type="text/css">
+        .custom-centered{
+            margin: 0 auto;
+            max-width: 400px;
+        }
+    </style>
 </head>
 </html>
 <body id="page-top">
@@ -61,14 +68,20 @@
             <div class="col text-center">
                 <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
                 <hr class="primary small"/>
-                <div class="masthead-subtitle text-left">I formuläret nedan så kommer ni få fylla i de uppgifter som jag
-                    behöver för att starta ett arbete.
-                    <br/>Dessa är endast grundläggande, och fler frågor kan behöva svaras på beroende på komplexiteten
-                    av just er
-                    nya hemsida.<br/>
-                    Liksom informationen som ska finnas på diverse undersidor, som ni själva behöver stå
-                    för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.
-                </div>
+
+                <form class="">
+                    <p class="font-weight-light">Ifall ni redan har skickat in ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong> nedan för att se status och information.</p>
+
+                    <div class="input-group mb-3 custom-centered">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">#</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Uppdrags-ID" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Skicka</button>
+                </form>
+
             </div>
         </div>
     </div>
@@ -81,28 +94,20 @@
 <!-- * Form Section *-->
 <!-- * * * * * * * * * *-->
 
-<section class="page-section" id="form">
+<section class="page-section bg-white" id="form">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-xl-8 mx-auto">
-                <form>
-                    <p class="font-weight-normal">Ifall ni redan har skickat in ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong> nedan för att se status och information.</p>
+             <div class="col-lg-10 col-xl-8 mx-auto">
 
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">#</span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Uppdrags-ID" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
+                <div class="lead mb-5 text-muted"> <i>I formuläret nedan så kommer ni få fylla i de uppgifter som jag
+                    behöver för att starta ett arbete.
+                    Dessa är endast grundläggande, och fler frågor kan behöva svaras på beroende på komplexiteten
+                    av just er
+                    nya hemsida.
+                    Liksom informationen som ska finnas på diverse undersidor, som ni själva behöver stå
+                    för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.</i>
+                </div>
 
-                    <button type="submit" class="btn btn-primary">Skicka</button>
-                </form>
-
-                <hr>
-
-            </div>
-
-            <div class="col-lg-10 col-xl-8 mx-auto">
                 <h2 class="page-section-heading text-uppercase text-center">Uppdragsformulär</h2>
                 <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
                 <hr class="primary small"/>
@@ -186,23 +191,26 @@ Helger: 09-14" rows="6"></textarea>
                     <hr>
 
                     <div class="form-group">
-                        <label for="namn_undersidor">Behöver ni någon inloggning?</label>
-                        <small class="form-text text-muted">Fyll i syfte nedan i sådant fall. Om det ska vara
-                            administrativt eller för användare tex.</small>
+                        <label for="namn_undersidor">Behöver ni någon inloggning?
+                            <small class="form-text text-muted">Fyll i syfte nedan i sådant fall. Om det ska vara
+                                administrativt eller för användare tex. Gärna så detaljerat som möjligt.</small>
+                        </label>
+
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
 
                     <hr>
 
                     <p>Nedan kryssar ni i vilken mall ni vill att jag utgår ifrån när jag skapar er webbplats.
-                        <small>Dessa är färdiga mallar som jag skräddarsyr efter era önskemål, som jag också äger licens
+                        <small class="form-text text-muted">Dessa är färdiga mallar som jag skräddarsyr efter era önskemål, som jag också äger licens
                             för.<br/>
-                            Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa här och här.</small>
+                            Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa
+                            <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
                     </p>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
+                               value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
                             Unify (<a href="https://htmlstream.com/preview/unify-v2.6.3/index.html">Visa</a>)
                         </label>
@@ -210,7 +218,7 @@ Helger: 09-14" rows="6"></textarea>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1" checked>
+                               value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             Smarty (<a href="https://smarty.stepofweb.com/3.1.3/html_frontend/overview.html"
                                        target="_blank">Visa</a>)
@@ -243,13 +251,13 @@ Helger: 09-14" rows="6"></textarea>
 
                     <div class="form-group">
                         <label for="namn_undersidor">Om ni vill använda en annan mall så kan ni klistra in länk eller
-                            namn på mallen nedan.</label>
-                        <input id="namn_undersidor" type="text" name="tags" class="form-control col-12 col-md-4">
+                            namnet på mallen nedan.</label>
+                        <input id="namn_undersidor" type="text" name="tags" class="form-control col-12 col-md-6">
                     </div>
 
                     <hr>
 
-                    <p class="quote"><i>
+                    <p class="text-muted"><i>
                             Utifall ni vill ha bilder på hemsidan så kräver dessa oftast en licens, normalt kallat
                             "Stock Photos". Det
                             andra alternativet är om ni tagit bilderna själva, vilket ej kräver licens.
