@@ -8,9 +8,9 @@ return [
     'portfolio' => 'Portfolio',
     'testimonials' => 'Omdömen',
     'contact' => 'Kontakt',
-    'head_text' => 'Din webbplats är centrum för ditt digitala ekosystem. Som en plats av tegelstenar, så är upplevelsen viktig när en kund tittar in. Lika mycket som den uppfattning de har om dig innan de går genom dörren till ditt kontor.',
+    'head_text' => 'Din webbplats är centrum för ditt digitala ekosystem. Som en väg av kullersten, så är upplevelsen viktig när en kund tittar. Lika mycket som den uppfattning de har om dig innan de går genom dörren till ditt kontor.',
     'about_me' => 'Om Mig',
-    'about_me_title' => 'Jag är en person med många års erfarenhet, här för att hjälpa dig med dina utvecklingsbehov.',
+    'about_me_title' => 'Jag är en person med många års erfarenhet, som är redo för att hjälpa dig med dina utvecklingsbehov.',
     'about_me_text' => '<h4>Hej!</h4>
                 <p>Mitt namn är <span class="font-weight-normal">Andreas</span> och jag har jobbat med webbutveckling i mer än 15 år. Där jag använder HTML, PHP, JS and MySQL som mina valfria verktyg.</p>
 
