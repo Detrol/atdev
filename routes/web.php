@@ -24,6 +24,10 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
+Route::get('/submit', function () {
+    return view('pages.submit');
+});
+
 Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class, 'lang']);
 
 # If Admin or other Prefix pages

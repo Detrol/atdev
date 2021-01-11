@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+@php
+    use Jenssegers\Agent\Agent;
+        $agent = new Agent();
+@endphp
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,6 +59,7 @@
                 </li>
             </ul>
         </div>
+
     </div>
 </nav>
 <!-- * * * * * * *-->
@@ -67,6 +72,8 @@
                 <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
                 <hr class="primary small"/>
                 <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>
+                <hr class="primary small"/>
+                <a class="btn btn-outline-light mt-3" href="#process">Click here to get started!</a>
             </div>
         </div>
     </div>

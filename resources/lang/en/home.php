@@ -10,7 +10,7 @@ return [
     'contact' => 'Contact',
     'head_text' => 'Your website is the center of your digital eco-system. Like a brick and mortar location, the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door.',
     'about_me' => 'About Me',
-    'about_me_title' => 'I am an individual with years of experience, here to help with your development needs.',
+    'about_me_title' => 'I am an individual with years of experience, ready to help with your development needs.',
     'about_me_text' => '<h4>Hello!</h4>
                 <p>My name is <span class="font-weight-normal">Andreas</span> and i have been working with web-development for more than 15 years. Using HTML, PHP, JS and MySQL as my tools of choice.</p>
 
