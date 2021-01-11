@@ -73,7 +73,7 @@
                 <hr class="primary small"/>
                 <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>
                 <hr class="primary small"/>
-                <a class="btn btn-outline-light mt-3" href="#process">Click here to get started!</a>
+                <a class="btn btn-outline-light mt-3" href="/submit">Klicka här för att boka mig!</a>
             </div>
         </div>
     </div>
