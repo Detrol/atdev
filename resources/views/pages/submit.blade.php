@@ -21,13 +21,12 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
           rel="stylesheet"/>
     <!-- Plugin styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css"
           integrity="sha512-xmGTNt20S0t62wHLmQec2DauG9T+owP9e6VU8GigI0anN7OXLip9i7IwEhelasml2osdxX71XcYm6BQunTQeQg=="
           crossorigin="anonymous"/>
-    <link href="assets/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet"/>
-    <link href="assets/plugins/html5-device-mockups/dist/device-mockups.min.css" rel="stylesheet"/>
-    <link href="assets/plugins/slick-carousel/slick.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Custom styles for this theme-->
     <link href="css/styles.css" rel="stylesheet"/>
 
@@ -37,6 +36,12 @@
         .custom-centered{
             margin: 0 auto;
             max-width: 400px;
+        }
+
+        .modal.fade .modal-dialog {
+            -webkit-transform: translate(0);
+            -moz-transform: translate(0);
+            transform: translate(0);
         }
     </style>
 </head>
@@ -70,7 +75,7 @@
                 <hr class="primary small"/>
 
                 <form class="">
-                    <p class="font-weight-light">Ifall ni redan har skickat in ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong> nedan för att se status och information.</p>
+                    <p class="font-weight-light">Om ni redan har skapat ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong> nedan för att se status och information.</p>
 
                     <div class="input-group mb-3 custom-centered">
                         <div class="input-group-prepend">
@@ -105,15 +110,21 @@
                     av just er
                     nya hemsida.
                     Liksom informationen som ska finnas på diverse undersidor, som ni själva behöver stå
-                    för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.</i>
+                    för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.<br /><br />
+
+                    Innan ni bekräftar en bokning, se till att vara väl förberedda på vad ni vill ha, samt den informationen
+                    ni vill förmedla på era undersidor. Inklusive de bilder ni önskar visa.<br /><br />
+
+                    Har ni frågor eller funderingar så får ni mer än gärna kontakta mig i förväg.<br />
+                    <a href="mailto:info@atdev.me">info@atdev.me</a></i>
                 </div>
 
                 <h1 class="text-uppercase text-center">Uppdrag</h1>
                 <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
-                    <a class="btn btn-outline-primary js-scroll-trigger" href="#process">Mer information</a>
-                    <a class="btn btn-outline-primary js-scroll-trigger" href="#process">Prisuppgifter</a>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#info">Mer information</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#priser">Prisuppgifter</button>
                 </div>
                 <form>
                     <div class="form-group">
@@ -125,24 +136,8 @@
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input contact_form-toggle" id="contact_form">
-                        <label class="form-check-label" for="contact_form">Behöver ni ett kontaktformulär som kan
-                            skicka mail?</label>
-                    </div>
-
-                    <div class="form-group contact_form-show">
-                        <label for="namn_undersidor">Fyll i vilken mail dessa ska skickas till
-                        </label>
-                        <input id="" type="text" name="tags" class="form-control">
-                        <small class="form-text text-muted">Ifall ni vill ha en ny mail bunden till hemsidan, lämna
-                            detta tomt.</small>
-                    </div>
-
-                    <hr>
-
-                    <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input contact_page-toggle" id="contact_page">
-                        <label class="form-check-label" for="contact_page">Behöver ni en kontakt-sida?</label>
+                        <label class="form-check-label" for="contact_page">Behöver ni en kontaktsida?</label>
                     </div>
 
                     <div class="row contact_page-show">
@@ -166,9 +161,23 @@
                                 <label for="namn_undersidor">Om ni vill presentera öppettider, fyll i det här.</label>
                                 <textarea class="form-control" placeholder="Ex:
 Vardagar 09-17
-Helger: 09-14" rows="6"></textarea>
+Helger: 09-14" rows="4"></textarea>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input contact_form-toggle" id="contact_form">
+                        <label class="form-check-label" for="contact_form">Behöver ni ett kontaktformulär som kan
+                            skicka mail?</label>
+                    </div>
+
+                    <div class="form-group contact_form-show">
+                        <label for="namn_undersidor">Fyll i vilken mail dessa ska skickas till
+                        </label>
+                        <input id="" type="text" name="tags" class="form-control">
+                        <small class="form-text text-muted">Ifall ni vill ha en ny mail bunden till hemsidan, lämna
+                            detta tomt.</small>
                     </div>
 
                     <hr>
@@ -201,8 +210,8 @@ Helger: 09-14" rows="6"></textarea>
 
                     <hr>
 
-                    <p>Nedan kryssar ni i vilken design-mall ni vill att jag utgår ifrån när jag skapar er webbplats.
-                        <small class="form-text text-muted">Dessa är färdiga design-mallar som jag skräddarsyr efter era önskemål, som jag också äger licens
+                    <p>Nedan kryssar ni i vilken designmall ni vill att jag utgår ifrån när jag skapar er webbplats.
+                        <small class="form-text text-muted">Dessa är färdiga designmallar som jag skräddarsyr efter era önskemål, som jag också äger licens
                             för.<br/>
                             Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa
                             <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
@@ -264,7 +273,6 @@ Helger: 09-14" rows="6"></textarea>
                             Behöver ni "Stock Photos" så behöver ni betala för dessa själva, och jag kan hjälpa er med
                             mer
                             information om detta, och var de hittas.
-
                         </i></p>
 
                     <hr>
@@ -275,11 +283,15 @@ Helger: 09-14" rows="6"></textarea>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
 
+                    <div class="alert alert-secondary"><span class="small text-primary">*</span> Dubbelkolla informationen ovan och se till att allt är korrekt ifyllt.
+                    Denna kommer sedan att sparas i en databas, och sedan kommer ni kunna följa uppdragets status via länken ni kommer få via er mail,
+                    eller genom att uppge ert Uppdrags-ID högst upp på sidan.</div>
+
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
+                               value="option1" required>
                         <label class="form-check-label" for="exampleRadios1">
-                           Jag bekräftar att all information ovan är korrekt, och jag godkänner att detta kommer sparas i en databas.
+                           Jag bekräftar och godkänner informationen som står i rutan ovan <span class="small text-primary">*</span>.
                         </label>
                     </div>
 
@@ -289,6 +301,57 @@ Helger: 09-14" rows="6"></textarea>
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Information</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="priser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Prisuppgifter</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h6>Enklare hemsidor</h6>
+                <p>För enklare hemsidor, där vi endast pratar information som visas på undersidor så tar jag betalt per sida.</p>
+                <p>Dessa går oftast relativt snabbt att skapa. Beroende på vad sidorna ska innehålla.</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 1000 kr/undersida</div>
+
+                <h6>Avancerade hemsidor</h6>
+                <p>För mer avancerade sidor som kräver databashantering och mer avancerade funktioner så tar jag betalt per timma.</p>
+                <p>Ett fast pris blir ofta svårt att sätta på dessa, då det kräver både mer planering och mycket mer kod för att utföra.<br/>
+                Undantag finns, men det är sällan man nyttjar avancerad kod med enkel struktur och få funktioner.</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 400 kr/tim</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- * * * * * *-->
 <!-- * Footer  *-->
 <!-- * * * * * *-->
@@ -307,12 +370,14 @@ Helger: 09-14" rows="6"></textarea>
     </div>
 </footer>
 <!-- Bootstrap core JavaScript-->
-<script src="assets/plugins/jquery/jquery.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript-->
 <script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
 <script src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
 <script src="assets/plugins/slick-carousel/slick.min.js"></script>
+
 <!-- Custom scripts for this theme-->
 <script src="js/scripts.js"></script>
 
