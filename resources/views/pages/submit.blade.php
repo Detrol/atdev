@@ -108,7 +108,7 @@
                     för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.</i>
                 </div>
 
-                <h2 class="page-section-heading text-uppercase text-center">Uppdragsformulär</h2>
+                <h1 class="text-uppercase text-center">Uppdragsformulär</h1>
                 <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
@@ -125,14 +125,13 @@
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Behöver sidan ett kontaktformulär som kan
+                        <input type="checkbox" class="form-check-input contact_form-toggle" id="contact_form">
+                        <label class="form-check-label" for="contact_form">Behöver ni ett kontaktformulär som kan
                             skicka mail?</label>
                     </div>
 
-                    <div class="form-group">
-                        <label for="namn_undersidor">Om ovan är ikryssat, skriv nedan vilken mail detta ska skickas
-                            till.
+                    <div class="form-group contact_form-show">
+                        <label for="namn_undersidor">Fyll i vilken mail dessa ska skickas till
                         </label>
                         <input id="" type="text" name="tags" class="form-control">
                         <small class="form-text text-muted">Ifall ni vill ha en ny mail bunden till hemsidan, lämna
@@ -142,19 +141,11 @@
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Behöver ni en Team-sida? Där lagmedlemmar
-                            presenteras.</label>
-                        <small class="form-text text-muted">Uppföljning sker om detta kryssas i - för mer
-                            information.</small>
+                        <input type="checkbox" class="form-check-input contact_page-toggle" id="contact_page">
+                        <label class="form-check-label" for="contact_page">Behöver ni en kontakt-sida?</label>
                     </div>
 
-                    <hr>
-
-                    <p class="font-weight-normal">Ifall ni behöver en kontaktsida, utöver ett kontaktformulär, vänligen
-                        fyll i dessa fält.</p>
-
-                    <div class="row">
+                    <div class="row contact_page-show">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
                                 <label for="namn_undersidor">Telefonnummer</label>
@@ -182,17 +173,26 @@ Helger: 09-14" rows="6"></textarea>
 
                     <hr>
 
-                    <div class="form-group">
-                        <label for="namn_undersidor">Behöver ni hemsidan i flera språk? I sådant fall vilka? Separera
-                            med komman.</label>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input languages-toggle" id="languages">
+                        <label class="form-check-label" for="languages">Behöver ni hemsidan på flera språk?</label>
+                    </div>
+
+                    <div class="form-group languages-show">
+                        <label for="namn_undersidor">Fyll i samtliga språk och separera med komman.</label>
                         <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control">
                     </div>
 
                     <hr>
 
-                    <div class="form-group">
-                        <label for="namn_undersidor">Behöver ni någon inloggning?
-                            <small class="form-text text-muted">Fyll i syfte nedan i sådant fall. Om det ska vara
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input login-toggle" id="login">
+                        <label class="form-check-label" for="login">Behöver ni någon inloggning?</label>
+                    </div>
+
+                    <div class="form-group login-show">
+                        <label for="namn_undersidor">Fyll i syfte
+                            <small class="form-text text-muted">Om det ska vara
                                 administrativt eller för användare tex. Gärna så detaljerat som möjligt.</small>
                         </label>
 
@@ -201,8 +201,8 @@ Helger: 09-14" rows="6"></textarea>
 
                     <hr>
 
-                    <p>Nedan kryssar ni i vilken mall ni vill att jag utgår ifrån när jag skapar er webbplats.
-                        <small class="form-text text-muted">Dessa är färdiga mallar som jag skräddarsyr efter era önskemål, som jag också äger licens
+                    <p>Nedan kryssar ni i vilken design-mall ni vill att jag utgår ifrån när jag skapar er webbplats.
+                        <small class="form-text text-muted">Dessa är färdiga design-mallar som jag skräddarsyr efter era önskemål, som jag också äger licens
                             för.<br/>
                             Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa
                             <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
@@ -350,5 +350,33 @@ Helger: 09-14" rows="6"></textarea>
         border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
 </style>
+
+<script>
+    $(document).ready(function () {
+        $(".contact_form-show").hide()
+
+        $(".contact_form-toggle").click(function () {
+            $(".contact_form-show").slideToggle()
+        });
+
+        $(".contact_page-show").hide()
+
+        $(".contact_page-toggle").click(function () {
+            $(".contact_page-show").slideToggle()
+        });
+
+        $(".languages-show").hide()
+
+        $(".languages-toggle").click(function () {
+            $(".languages-show").slideToggle()
+        });
+
+        $(".login-show").hide()
+
+        $(".login-toggle").click(function () {
+            $(".login-show").slideToggle()
+        });
+    });
+</script>
 
 @endsection

@@ -25,3 +25,11 @@ J
 resources/lang/en/home.php,1\6\169fe1f646bc54ba39b775e650bf2a15f333c11a
 J
 resources/lang/sv/home.php,f\5\f58064da5dd5ba6d17a94bd4444eb8d0f9c0a59a
+S
+#app/Http/Controllers/Controller.php,2\e\2ed23e1749f02eb8e561f0a531d07863e7cf9fb9
+W
+'resources/views/layouts/admin.blade.php,9\b\9bf3ef0ef17d25778e50a9e7458a5cd2acf47a76
+E
+public/css/custom.css,b\1\b1bcf46f429d88af6995c927469523762bc60576
+V
+&resources/views/pages/submit.blade.php,8\7\8745a1c254ff7eed04d001bbcfbe8f8c7fcc8a75

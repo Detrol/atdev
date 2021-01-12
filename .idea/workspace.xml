@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f5d4fe-4df9-405d-8bae-88174b7a8275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e6ada4d198796f76cd54d71dd729ca4f210568e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e6ada4d198796f76cd54d71dd729ca4f210568e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/sv/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/sv/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/submit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +127,9 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mqV4LRm09vdJhltSSqWKbwt2w3" />
@@ -142,6 +146,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -161,7 +166,9 @@
       <workItem from="1610220922730" duration="2919000" />
       <workItem from="1610277384334" duration="1975000" />
       <workItem from="1610293653584" duration="10087000" />
-      <workItem from="1610310323767" duration="4973000" />
+      <workItem from="1610310323767" duration="7448000" />
+      <workItem from="1610330497229" duration="14573000" />
+      <workItem from="1610439110751" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -185,6 +192,14 @@
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1921" height="275" key="GridCell.Tab.0.right/0.0.1920.999@0.0.1920.999" timestamp="1610230613269" />
+    <state x="461" y="144" key="SettingsEditor" timestamp="1610384793230">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="461" y="144" key="SettingsEditor/0.0.1920.999/1920.0.1920.1040@0.0.1920.999" timestamp="1610384793230" />
+    <state x="616" y="230" key="run.anything.popup" timestamp="1610380311247">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="616" y="230" key="run.anything.popup/0.0.1920.999/1920.0.1920.1040@0.0.1920.999" timestamp="1610380311247" />
     <state x="623" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1610295876489">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
