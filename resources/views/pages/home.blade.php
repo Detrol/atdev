@@ -36,10 +36,9 @@
     <div class="container">
         <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/atdevme_logo.png" alt=""/></a>-->
         <div class="text-white">
-            <a class="btn-link text-white" href="/lang/sv"><img src="{{ asset('assets/img/flags/24x24/SE.png') }}"
+            <!--<a class="btn-link text-white" href="/lang/sv"><img src="{{ asset('assets/img/flags/24x24/SE.png') }}"
                                                                 alt="SV"/></a> &nbsp; &nbsp;
-            <a class="btn-link text-white" href="/lang/en"><img src="{{ asset('assets/img/flags/24x24/US.png') }}"
-                                                                alt="SV"/></a>
+            <a class="btn-link text-white" href="/lang/en"><img src="{{ asset('assets/img/flags/24x24/US.png') }}" alt="SV"/></a>-->
         </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -258,10 +257,22 @@
                     <div class="caption">
                         <div class="caption-content">
                             <h2>Remindme.cloud</h2>
-                            <p class="mb-0">Cloud-based reminder system with personal calendar and events.</p>
+                            <p class="mb-0">Molnbaserad påminnelsetjänst med personlig kalender och händelser.</p>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{ asset('assets/img/remindme1.PNG') }}" alt=""/>
+                    <img class="img-fluid" src="{{ asset('assets/img/remindme.png') }}" alt=""/>
+                </a>
+            </div>
+
+            <div class="col-lg-6 col-xl-4">
+                <a class="portfolio-grid-item" href="https://putsikarlstad.se" target="_blank">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h2>Putsikarlstad.se</h2>
+                            <p class="mb-0">Hemsida med egen inloggning och komplett bokningssystem.</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{{ asset('assets/img/putsikarlstad.png') }}" alt=""/>
                 </a>
             </div>
         </div>
@@ -500,11 +511,12 @@
                 <h2 class="page-section-heading text-uppercase text-center">{!! __("home.contact_me_head") !!}</h2>
                 <p class="lead m-0 text-center">{!! __("home.contact_me_title") !!}</p>
                 <hr class="primary small mb-5"/>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <form name="sentMessage" novalidate="novalidate" action="{{ route('contact_mail') }}">
+                    @csrf
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
                             <label>{!! __("home.contact_name") !!}</label>
-                            <input class="form-control" id="name" type="text"
+                            <input class="form-control" id="name" type="text" name="name"
                                    placeholder="{!! __("home.contact_name") !!}" required="required"
                                    data-validation-required-message="Please enter your name."/>
                             <p class="help-block text-danger"></p>
@@ -513,7 +525,7 @@
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
                             <label>{!! __("home.contact_email") !!}</label>
-                            <input class="form-control" id="email" type="email"
+                            <input class="form-control" id="email" type="email" name="email"
                                    placeholder="{!! __("home.contact_email") !!}" required="required"
                                    data-validation-required-message="Please enter your email address."/>
                             <p class="help-block text-danger"></p>
@@ -522,7 +534,7 @@
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
                             <label>{!! __("home.contact_message") !!}</label>
-                            <textarea class="form-control" id="message" rows="5"
+                            <textarea class="form-control" id="message" rows="5" name="message"
                                       placeholder="{!! __("home.contact_message") !!}" required="required"
                                       data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>

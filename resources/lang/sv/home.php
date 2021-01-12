@@ -22,7 +22,7 @@ return [
     'process_title' => 'Här är en översikt över hur jag utför varje nytt projekt.',
     'process_title_1' => 'Kundintervju',
     'process_text_1' => 'Först måste jag veta vad du vill ha och förväntar dig.<br>
-                        Du får ett e-postmeddelande med alla frågor jag behöver för att börja bygga.',
+                        Du kan läsa mer och boka mig direkt <a href="/submit">här</a>.',
     'process_title_2' => 'Skapa',
     'process_text_2' => 'När byggnationen har börjat kommer vi att hålla en öppen dialog under hela processen för att se till att allt är enligt dina behov.',
     'process_title_3' => 'Släpp',
