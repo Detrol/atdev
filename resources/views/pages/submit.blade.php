@@ -108,7 +108,7 @@
                     för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.</i>
                 </div>
 
-                <h1 class="text-uppercase text-center">Uppdragsformulär</h1>
+                <h1 class="text-uppercase text-center">Uppdrag</h1>
                 <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
