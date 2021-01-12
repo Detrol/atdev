@@ -32,7 +32,7 @@ return [
     'testimonials_head' => 'Omdömen',
     'testimonials_title' => 'Vad mina klienter har sagt om mig',
     'contact_me_head' => 'Kontakta Mig',
-    'contact_me_title' => 'Låt mig veta vad du behöver hjälp med, så återkommer jag med vad jag kan göra för att hjälpa dig!',
+    'contact_me_title' => 'Låt mig veta om du har några frågor eller funderingar, så återkommer så snart jag kan!',
     'contact_name' => 'Namn',
     'contact_email' => 'E-Post',
     'contact_message' => 'Meddelande',
