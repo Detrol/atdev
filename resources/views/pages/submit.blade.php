@@ -218,6 +218,7 @@ Helger: 09-14" rows="4"></textarea>
 
                     <hr>
 
+                    <h6>Design</h6>
                     <p>Nedan kryssar ni i vilken designmall ni vill att jag utgår ifrån när jag skapar er webbplats.
                         <small class="form-text text-muted">Dessa är färdiga designmallar som jag skräddarsyr efter era
                             önskemål, som jag också äger licens
@@ -279,14 +280,6 @@ Helger: 09-14" rows="4"></textarea>
 
                     <hr>
 
-                    <div class="form-group">
-                        <label for="namn_undersidor">Om ni har något att tillägga så kan ni fylla i detta nedan
-                            (fritext).</label>
-                        <textarea class="form-control" rows="3"></textarea>
-                    </div>
-
-                    <hr />
-
                     <h6>Webb-Paket</h6>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
@@ -318,6 +311,14 @@ Helger: 09-14" rows="4"></textarea>
                         <label class="form-check-label" for="exampleRadios1">
                             Har redan (behöver endast filer för hemsidan)
                         </label>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group">
+                        <label for="namn_undersidor">Om ni har något att tillägga så kan ni fylla i detta nedan
+                            (fritext).</label>
+                        <textarea class="form-control" rows="3"></textarea>
                     </div>
 
                     <hr />
