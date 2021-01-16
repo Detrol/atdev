@@ -197,7 +197,7 @@ Helger: 09-14" rows="4"></textarea>
 
                     <div class="form-group languages-show">
                         <label for="namn_undersidor">Fyll i samtliga språk och separera med komman.</label>
-                        <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control">
+                        <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control mb-3">
                     </div>
 
                     <hr>
@@ -252,14 +252,6 @@ Helger: 09-14" rows="4"></textarea>
                         </label>
                     </div>
 
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
-                            Vitality (<a href="https://themes.startbootstrap.com/vitality-v3.0.0/dist/">Visa</a>)
-                        </label>
-                    </div>
-
                     <div class="form-check pb-3">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
                                value="option1">
@@ -293,11 +285,38 @@ Helger: 09-14" rows="4"></textarea>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
 
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="namn_undersidor">Fullständigt namn</label>
+                                <input id="" type="text" name="tags" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="namn_undersidor">Org. Nummer / Personnummer</label>
+                                <input id="" type="text" name="tags" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="namn_undersidor">E-Post</label>
+                                <input id="" type="email" name="tags" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="alert alert-secondary"><span class="small text-primary">*</span> Dubbelkolla
                         informationen ovan och se till att allt är korrekt ifyllt.
                         Denna kommer sedan att sparas i en databas, och sedan kommer ni kunna följa uppdragets status
                         via länken ni kommer få via er mail,
-                        eller genom att uppge ert Uppdrags-ID högst upp på sidan.
+                        eller genom att uppge ert Uppdrags-ID högst upp på sidan.<br /><br />
+
+                        Personuppgifter kommer att lagras tills det att fakturan för arbetet är betald. Som sköts via <a href="https://coolcompany.com/se/" target="_blank">Cool Company</a>, som i sin tur hanterar detta på <a href="https://coolcompany.com/se/en/privacy-policy-client-and-self-employed/" target="_blank">eget vis</a>.
                     </div>
 
                     <div class="form-check mb-3">
@@ -332,7 +351,7 @@ Helger: 09-14" rows="4"></textarea>
                 Bootstrap 4 & 5 används för alla teman jag utvecklar i, för att alltid ge er en kvalitativ design som alltid är responsiv mellan olika enheter.</p>
 
                 <h6>Tillgänglighet</h6>
-                <p>Detta beror såklart på efterfrågan, och jag försöker alltid att prioritera ett arbete i taget.
+                <p>Beror såklart på efterfrågan, och jag försöker alltid att prioritera ett arbete i taget.
                 Men detta beror också på hur flytande arbetet och våra dialoger är. Om jag exempelvis behöver vänta med information så kan det hända
                 att jag tar in ytterligare projekt.</p>
 
@@ -341,8 +360,8 @@ Helger: 09-14" rows="4"></textarea>
                 eller att problem uppstått. Med undantag att jag orsakat problem, då gäller fri support.</p>
 
                 <h6>GDPR</h6>
-                <p>Denna lag som bland annat gäller hantering av personuppgifter, kakor med mera är inget som jag ansvarar för.<br />
-                Detta på grund av att ni behöver någon med juridisk bakgrund som skriver detta. Nästan alla sidor hanterar dessa olika, så det finns inte någon direkt färdig mall för det.</p>
+                <p>Detta är en ny svensk lag som gäller alla hemsidor som på något vis hanterar användaruppgifter och kakor.<br/>
+                Jag tar inget ansvar över detta då det oftast kräver någon med juridisk bakgrund att skriva. Jag infogar däremot en tom undersida och en pop-up för det utan kostnad.</p>
 
                 <h6>SEO</h6>
                 <p>Likt GDPR så behövs någon med särskild bakgrund för att integrera detta, då det också är ett väldigt flytande ämne som ändras konstant. Detta behöver ni hyra in en specialist
@@ -383,35 +402,47 @@ Helger: 09-14" rows="4"></textarea>
 
                 <div class="alert alert-info small p-2"><strong>Pris:</strong> 600 kr/tim</div>
 
+                <h6>Extra Språk</h6>
+                <p>Att översätta en sida till mer än ett språk är inte så enkelt som att skriva sidan i två språk och skapa en språkknapp.</p>
+                <p>Hela processen blir för lång att förklara här, men det tar mer än den dubbla tiden att koda in mer än ett språk.</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 2000 kr per språk och undersida.</div>
+
+                <div class="alert alert-secondary small p-2">Två språk för alla undersidor blir alltså ungefär det dubbla i slutpris.</div>
+
                 <h6>Webb-Paket</h6>
-                <p class="lead font-weight-normal">Paket Standard</p>
+                <p class="lead font-weight-normal mb-0">Paket Standard</p>
                 <p>Beställer ni detta så hjälper jag er med registrering av Domän, Webbhotell, E-Post och Cloudflare.</p>
                 <p>Dessa registreras då via Loopia - som är en av sveriges äldsta och tryggaste värdar, som i skrivande stund kostar från 89kr/mån(39kr/mån första året).</p>
 
                 <div class="alert alert-info small p-2"><strong>Pris:</strong> 3000 kr</div>
 
-                <p class="lead font-weight-normal">Paket VPS</p>
+                <p class="lead font-weight-normal mb-0">Paket VPS</p>
                 <p>Beställer ni detta så hjälper jag er med Domän, VPS, E-Post och Cloudflare.</p>
                 <p>Vid mer avancerade projekt där säkerhet och prestanda är prioritet så hjälper jag er med en egen VPS-server.<br />
                     Detta kräver också mycket mer jobb att konfigurera, och då använder jag VPS via DigitalOcean och mail via G-Suite.</p>
 
-                <p>VPS kostar från $60/mån, och G-Suite $5/mån(per e-post adress).</p>
+                <p>VPS kostar från $5/mån(rekommenderat från $60/mån), och G-Suite $5/mån(per e-post adress).</p>
 
                 <div class="alert alert-info small p-2"><strong>Pris:</strong> 6000 kr</div>
 
-                <div class="alert alert-secondary">
+                <hr />
+
+                <div class="alert alert-secondary small p-2">
                    Om ni redan har Domän och Webbhotell/VPS så kan jag hjälpa er med integrering från 2000 kr.<br />
                         Om ni önskar att integrera själva så är detta helt okej, och då får ni en packeterad fil som innehåller alla filer för hemsidan.
                 </div>
 
-                <div class="alert alert-secondary">
+                <div class="alert alert-secondary small p-2">
                     Beroende på paket och metod så behöver ni uppge faktureringsuppgifter för Loopia, eller Paypal/kortuppgifter för DO. Men jag visar hur ni kan göra detta själva.
                 </div>
+
+                <hr />
 
                 <p class="font-weight-normal mb-0">Vad är Cloudflare?</p>
                 <span class="text-muted">Cloudflare är en tjänst som alla hemsidor borde nyttja.
                         Som fungerar likt en CDN för att maximera hastighet och som samtidigt använder en mjuk brandvägg för att skydda mot bland annat intrång och DDOS-attacker.
-                Cloudflare erbjuder också olika betalplaner, men den fria räcker för de flesta.</span>
+                Cloudflare erbjuder också olika betalplaner, men den fria duger för de flesta.</span>
 
 
 
