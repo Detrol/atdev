@@ -124,17 +124,53 @@
                         Har ni frågor eller funderingar så får ni mer än gärna kontakta mig i förväg.<br/>
                         <a href="mailto:info@atdev.me">info@atdev.me</a></i>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="callout2 text-white">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-xl-10 text-center">
                 <h1 class="text-uppercase text-center">Uppdrag</h1>
-                <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
+                <p class="lead m-0 text-center">Fyll i uppgifterna nedan så noga du kan.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
-                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#info">Mer information
+                    <button class="btn btn-outline-light" data-toggle="modal" data-target="#info">Mer information
                     </button>
-                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#priser">Prisuppgifter
+                    <button class="btn btn-outline-light" data-toggle="modal" data-target="#priser">Prisuppgifter
                     </button>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section bg-white" id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-8 mx-auto">
+
                 <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="namn_undersidor">Hemsidans namn</label>
+                                <input id="" type="text" name="tags" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="namn_undersidor">Slogan (om ni har någon)</label>
+                                <input id="" type="text" name="tags" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
                     <div class="form-group">
                         <label for="namn_undersidor">Vilka undersidor önskas? Separeras med komman.</label>
                         <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control">
@@ -326,7 +362,7 @@ Helger: 09-14" rows="4"></textarea>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Fullständigt namn</label>
+                                <label for="namn_undersidor">Företagsnamn / Fullständigt namn </label>
                                 <input id="" type="text" name="tags" class="form-control">
                             </div>
                         </div>
@@ -402,6 +438,8 @@ Helger: 09-14" rows="4"></textarea>
                 <h6>SEO</h6>
                 <p>Likt GDPR så behövs någon med särskild bakgrund för att integrera detta, då det också är ett väldigt flytande ämne som ändras konstant. Detta behöver ni hyra in en specialist
                 för att ordna. Jag erbjuder endast grundläggande som titlar och sidhuvuden.</p>
+
+                <h6>Logotyp</h6>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>

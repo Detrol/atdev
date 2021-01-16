@@ -8,7 +8,7 @@ return [
     'portfolio' => 'Portfolio',
     'testimonials' => 'Omdömen',
     'contact' => 'Kontakt',
-    'head_text' => 'Din webbplats är centrum för ditt digitala ekosystem. Som en väg av kullersten, så är upplevelsen viktig när en kund tittar. Lika mycket som den uppfattning de har om dig innan de går genom dörren till ditt kontor.',
+    'head_text' => 'Din webbplats är centrum för ditt digitala ekosystem. Som en vägg av tegelsten, så är upplevelsen viktig när en kund besöker. Lika mycket som den uppfattning de har om dig innan de går genom dörren till ditt kontor.',
     'about_me' => 'Om Mig',
     'about_me_title' => 'Jag är en person med många års erfarenhet, som är redo för att hjälpa dig med dina utvecklingsbehov.',
     'about_me_text' => '<h4>Hej!</h4>
