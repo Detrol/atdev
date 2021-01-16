@@ -287,6 +287,41 @@ Helger: 09-14" rows="4"></textarea>
 
                     <hr />
 
+                    <h6>Webb-Paket</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Standard
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            VPS
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            Har redan (behöver hjälp med integrering)
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            Har redan (behöver endast filer för hemsidan)
+                        </label>
+                    </div>
+
+                    <hr />
+
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
@@ -323,8 +358,8 @@ Helger: 09-14" rows="4"></textarea>
                         <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1"
                                value="option1" required>
                         <label class="form-check-label" for="exampleRadios1">
-                            Jag bekräftar och godkänner informationen som står i rutan ovan <span
-                                class="small text-primary">*</span>.
+                            Jag bekräftar och godkänner informationen som står i rutan ovan (<span
+                                class="small text-primary">*</span>).
                         </label>
                     </div>
 
@@ -385,6 +420,8 @@ Helger: 09-14" rows="4"></textarea>
                 </button>
             </div>
             <div class="modal-body">
+                <div class="alert alert-secondary small p-2 mb-3">Samtliga priser är exkl. moms.</div>
+
                 <h6>Enklare hemsidor</h6>
                 <p>För enklare hemsidor, där vi endast pratar information som visas på undersidor så tar jag betalt per
                     sida.</p>
