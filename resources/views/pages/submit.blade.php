@@ -391,7 +391,7 @@ Helger: 09-14" rows="4"></textarea>
                 att jag tar in ytterligare projekt.</p>
 
                 <h6>Support</h6>
-                <p>Efter ett projekt är färdigt, och slutkund är nöjd så ingår ingen support efteråt. Då får ni sedan hyra in mig vid behov, om ni behöver något extra gjort,
+                <p>Efter att ett projekt är färdigt, och slutkund är nöjd så ingår ingen support efteråt. Då får ni sedan hyra in mig vid behov, om ni behöver något extra gjort,
                 eller att problem uppstått. Med undantag att jag orsakat problem, då gäller fri support.</p>
 
                 <h6>GDPR</h6>
@@ -420,8 +420,6 @@ Helger: 09-14" rows="4"></textarea>
                 </button>
             </div>
             <div class="modal-body">
-                <div class="alert alert-secondary small p-2 mb-3">Samtliga priser är exkl. moms.</div>
-
                 <h6>Enklare hemsidor</h6>
                 <p>För enklare hemsidor, där vi endast pratar information som visas på undersidor så tar jag betalt per
                     sida.</p>
@@ -478,10 +476,13 @@ Helger: 09-14" rows="4"></textarea>
 
                 <p class="font-weight-normal mb-0">Vad är Cloudflare?</p>
                 <span class="text-muted">Cloudflare är en tjänst som alla hemsidor borde nyttja.
-                        Som fungerar likt en CDN för att maximera hastighet och som samtidigt använder en mjuk brandvägg för att skydda mot bland annat intrång och DDOS-attacker.
+                        Som fungerar som en <a href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/" target="_blank">CDN</a> för att maximera hastighet och som samtidigt använder en mjuk brandvägg för att skydda mot bland annat intrång och DDoS-attacker.
                 Cloudflare erbjuder också olika betalplaner, men den fria duger för de flesta.</span>
 
+                <hr />
 
+                <div class="alert alert-secondary small p-2">Samtliga priser är exkl. moms.<br />
+                    En administrativ kostnad på 6% av det totala beloppet läggs också på vid fakturering via Cool Company.</div>
 
             </div>
             <div class="modal-footer">
