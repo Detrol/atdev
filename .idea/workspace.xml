@@ -168,7 +168,9 @@
       <workItem from="1610293653584" duration="10087000" />
       <workItem from="1610310323767" duration="7448000" />
       <workItem from="1610330497229" duration="14573000" />
-      <workItem from="1610439110751" duration="1711000" />
+      <workItem from="1610439110751" duration="12905000" />
+      <workItem from="1610548879721" duration="599000" />
+      <workItem from="1610797865354" duration="6457000" />
     </task>
     <servers />
   </component>
@@ -176,6 +178,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="254" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610449783302">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="690" y="254" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1610449783302" />
     <state width="1921" height="275" key="GridCell.Tab.0.bottom" timestamp="1610230613270">
       <screen x="0" y="0" width="1920" height="999" />
     </state>

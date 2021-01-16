@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
           rel="stylesheet"/>
     <!-- Plugin styles-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css"
           integrity="sha512-xmGTNt20S0t62wHLmQec2DauG9T+owP9e6VU8GigI0anN7OXLip9i7IwEhelasml2osdxX71XcYm6BQunTQeQg=="
@@ -33,7 +34,7 @@
     <script src="css/custom.css"></script>
 
     <style type="text/css">
-        .custom-centered{
+        .custom-centered {
             margin: 0 auto;
             max-width: 400px;
         }
@@ -75,13 +76,15 @@
                 <hr class="primary small"/>
 
                 <form class="">
-                    <p class="font-weight-light">Om ni redan har skapat ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong> nedan för att se status och information.</p>
+                    <p class="font-weight-light">Om ni redan har skapat ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong>
+                        nedan för att se status och information.</p>
 
                     <div class="input-group mb-3 custom-centered">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">#</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Uppdrags-ID" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Uppdrags-ID" aria-label="Username"
+                               aria-describedby="basic-addon1">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Skicka</button>
@@ -102,29 +105,34 @@
 <section class="page-section bg-white" id="form">
     <div class="container">
         <div class="row">
-             <div class="col-lg-10 col-xl-8 mx-auto">
+            <div class="col-lg-10 col-xl-8 mx-auto">
 
-                <div class="lead mb-5 text-muted"> <i>I formuläret nedan så kommer ni få fylla i de uppgifter som jag
-                    behöver för att starta ett arbete.
-                    Dessa är endast grundläggande, och fler frågor kan behöva svaras på beroende på komplexiteten
-                    av just er
-                    nya hemsida.
-                    Liksom informationen som ska finnas på diverse undersidor, som ni själva behöver stå
-                    för. Mitt jobb är att designa och implementera utefter den informationen som ni ger mig.<br /><br />
+                <div class="lead mb-5 text-muted"><i>I formuläret nedan så kommer ni få fylla i de uppgifter som jag
+                        behöver för att starta ett arbete.
+                        Dessa är endast grundläggande, och fler frågor kan behöva svaras på beroende på komplexiteten
+                        av just er
+                        nya hemsida.
+                        Liksom informationen som ska finnas på diverse undersidor, som ni själva behöver stå
+                        för. Mitt jobb är att designa och implementera utefter den informationen som ni ger
+                        mig.<br/><br/>
 
-                    Innan ni bekräftar en bokning, se till att vara väl förberedda på vad ni vill ha, samt den informationen
-                    ni vill förmedla på era undersidor. Inklusive de bilder ni önskar visa.<br /><br />
+                        Innan ni bekräftar en bokning, se till att vara väl förberedda på vad ni vill ha, samt den
+                        informationen
+                        ni vill förmedla på era undersidor. Inklusive de bilder ni önskar visa.<br/>
+                        Detta diskuterar vi vidare via mail.<br/><br />
 
-                    Har ni frågor eller funderingar så får ni mer än gärna kontakta mig i förväg.<br />
-                    <a href="mailto:info@atdev.me">info@atdev.me</a></i>
+                        Har ni frågor eller funderingar så får ni mer än gärna kontakta mig i förväg.<br/>
+                        <a href="mailto:info@atdev.me">info@atdev.me</a></i>
                 </div>
 
                 <h1 class="text-uppercase text-center">Uppdrag</h1>
                 <p class="lead m-0 text-center">Fyll i uppgifterna här så noga du kan.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
-                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#info">Mer information</button>
-                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#priser">Prisuppgifter</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#info">Mer information
+                    </button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#priser">Prisuppgifter
+                    </button>
                 </div>
                 <form>
                     <div class="form-group">
@@ -211,10 +219,12 @@ Helger: 09-14" rows="4"></textarea>
                     <hr>
 
                     <p>Nedan kryssar ni i vilken designmall ni vill att jag utgår ifrån när jag skapar er webbplats.
-                        <small class="form-text text-muted">Dessa är färdiga designmallar som jag skräddarsyr efter era önskemål, som jag också äger licens
+                        <small class="form-text text-muted">Dessa är färdiga designmallar som jag skräddarsyr efter era
+                            önskemål, som jag också äger licens
                             för.<br/>
                             Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa
-                            <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
+                            <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a
+                                href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
                     </p>
 
                     <div class="form-check">
@@ -283,15 +293,19 @@ Helger: 09-14" rows="4"></textarea>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
 
-                    <div class="alert alert-secondary"><span class="small text-primary">*</span> Dubbelkolla informationen ovan och se till att allt är korrekt ifyllt.
-                    Denna kommer sedan att sparas i en databas, och sedan kommer ni kunna följa uppdragets status via länken ni kommer få via er mail,
-                    eller genom att uppge ert Uppdrags-ID högst upp på sidan.</div>
+                    <div class="alert alert-secondary"><span class="small text-primary">*</span> Dubbelkolla
+                        informationen ovan och se till att allt är korrekt ifyllt.
+                        Denna kommer sedan att sparas i en databas, och sedan kommer ni kunna följa uppdragets status
+                        via länken ni kommer få via er mail,
+                        eller genom att uppge ert Uppdrags-ID högst upp på sidan.
+                    </div>
 
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1"
                                value="option1" required>
                         <label class="form-check-label" for="exampleRadios1">
-                           Jag bekräftar och godkänner informationen som står i rutan ovan <span class="small text-primary">*</span>.
+                            Jag bekräftar och godkänner informationen som står i rutan ovan <span
+                                class="small text-primary">*</span>.
                         </label>
                     </div>
 
@@ -313,7 +327,26 @@ Helger: 09-14" rows="4"></textarea>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <h6>Språk/teknik</h6>
+                <p>Jag skriver all kod i HTML, CSS, JS(jQuery), PHP(Laravel) tillsammans med MySQL för databaser.<br />
+                Bootstrap 4 & 5 används för alla teman jag utvecklar i, för att alltid ge er en kvalitativ design som alltid är responsiv mellan olika enheter.</p>
+
+                <h6>Tillgänglighet</h6>
+                <p>Detta beror såklart på efterfrågan, och jag försöker alltid att prioritera ett arbete i taget.
+                Men detta beror också på hur flytande arbetet och våra dialoger är. Om jag exempelvis behöver vänta med information så kan det hända
+                att jag tar in ytterligare projekt.</p>
+
+                <h6>Support</h6>
+                <p>Efter ett projekt är färdigt, och slutkund är nöjd så ingår ingen support efteråt. Då får ni sedan hyra in mig vid behov, om ni behöver något extra gjort,
+                eller att problem uppstått. Med undantag att jag orsakat problem, då gäller fri support.</p>
+
+                <h6>GDPR</h6>
+                <p>Denna lag som bland annat gäller hantering av personuppgifter, kakor med mera är inget som jag ansvarar för.<br />
+                Detta på grund av att ni behöver någon med juridisk bakgrund som skriver detta. Nästan alla sidor hanterar dessa olika, så det finns inte någon direkt färdig mall för det.</p>
+
+                <h6>SEO</h6>
+                <p>Likt GDPR så behövs någon med särskild bakgrund för att integrera detta, då det också är ett väldigt flytande ämne som ändras konstant. Detta behöver ni hyra in en specialist
+                för att ordna. Jag erbjuder endast grundläggande som titlar och sidhuvuden.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
@@ -334,17 +367,54 @@ Helger: 09-14" rows="4"></textarea>
             </div>
             <div class="modal-body">
                 <h6>Enklare hemsidor</h6>
-                <p>För enklare hemsidor, där vi endast pratar information som visas på undersidor så tar jag betalt per sida.</p>
+                <p>För enklare hemsidor, där vi endast pratar information som visas på undersidor så tar jag betalt per
+                    sida.</p>
                 <p>Dessa går oftast relativt snabbt att skapa. Beroende på vad sidorna ska innehålla.</p>
 
-                <div class="alert alert-info small p-2"><strong>Pris:</strong> 1000 kr/undersida</div>
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 2000 kr/undersida</div>
 
                 <h6>Avancerade hemsidor</h6>
-                <p>För mer avancerade sidor som kräver databashantering och mer avancerade funktioner så tar jag betalt per timma.</p>
-                <p>Ett fast pris blir ofta svårt att sätta på dessa, då det kräver både mer planering och mycket mer kod för att utföra.<br/>
-                Undantag finns, men det är sällan man nyttjar avancerad kod med enkel struktur och få funktioner.</p>
+                <p>För mer avancerade sidor som kräver databashantering och mer avancerade funktioner så tar jag betalt
+                    per timma.</p>
+                <p>Ett fast pris blir ofta svårt att sätta på dessa, då det kräver både mer planering och mycket mer kod
+                    för att utföra.<br/>
+                    Undantag finns, men det är sällan man nyttjar avancerad kod med enkel struktur och få funktioner.
+                </p>
 
-                <div class="alert alert-info small p-2"><strong>Pris:</strong> 400 kr/tim</div>
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 600 kr/tim</div>
+
+                <h6>Webb-Paket</h6>
+                <p class="lead font-weight-normal">Paket Standard</p>
+                <p>Beställer ni detta så hjälper jag er med registrering av Domän, Webbhotell, E-Post och Cloudflare.</p>
+                <p>Dessa registreras då via Loopia - som är en av sveriges äldsta och tryggaste värdar, som i skrivande stund kostar från 89kr/mån(39kr/mån första året).</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 3000 kr</div>
+
+                <p class="lead font-weight-normal">Paket VPS</p>
+                <p>Beställer ni detta så hjälper jag er med Domän, VPS, E-Post och Cloudflare.</p>
+                <p>Vid mer avancerade projekt där säkerhet och prestanda är prioritet så hjälper jag er med en egen VPS-server.<br />
+                    Detta kräver också mycket mer jobb att konfigurera, och då använder jag VPS via DigitalOcean och mail via G-Suite.</p>
+
+                <p>VPS kostar från $60/mån, och G-Suite $5/mån(per e-post adress).</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 6000 kr</div>
+
+                <div class="alert alert-secondary">
+                   Om ni redan har Domän och Webbhotell/VPS så kan jag hjälpa er med integrering från 2000 kr.<br />
+                        Om ni önskar att integrera själva så är detta helt okej, och då får ni en packeterad fil som innehåller alla filer för hemsidan.
+                </div>
+
+                <div class="alert alert-secondary">
+                    Beroende på paket och metod så behöver ni uppge faktureringsuppgifter för Loopia, eller Paypal/kortuppgifter för DO. Men jag visar hur ni kan göra detta själva.
+                </div>
+
+                <p class="font-weight-normal mb-0">Vad är Cloudflare?</p>
+                <span class="text-muted">Cloudflare är en tjänst som alla hemsidor borde nyttja.
+                        Som fungerar likt en CDN för att maximera hastighet och som samtidigt använder en mjuk brandvägg för att skydda mot bland annat intrång och DDOS-attacker.
+                Cloudflare erbjuder också olika betalplaner, men den fria räcker för de flesta.</span>
+
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>

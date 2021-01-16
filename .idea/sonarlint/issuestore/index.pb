@@ -33,3 +33,9 @@ E
 public/css/custom.css,b\1\b1bcf46f429d88af6995c927469523762bc60576
 V
 &resources/views/pages/submit.blade.php,8\7\8745a1c254ff7eed04d001bbcfbe8f8c7fcc8a75
+?
+config/mail.php,2\d\2d414a971ebe9a05bd929c2805b4c963e8b1ea8d
+N
+resources/views/mail.blade.php,1\4\14912ebd8e646c26d2ada221e21c229f3e190323
+W
+'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47
