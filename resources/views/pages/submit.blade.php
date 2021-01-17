@@ -31,7 +31,7 @@
     <!-- Custom styles for this theme-->
     <link href="css/styles.css" rel="stylesheet"/>
 
-    <script src="css/custom.css"></script>
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet"/>
 
     <style type="text/css">
         .custom-centered {
@@ -152,19 +152,20 @@
         <div class="row">
             <div class="col-lg-10 col-xl-8 mx-auto">
 
-                <form>
+                <form novalidate id="submitForm" class="bs-validate" action="{{ route('submit_post') }}" method="post">
+                    @csrf
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Hemsidans namn</label>
-                                <input id="" type="text" name="tags" class="form-control">
+                                <label for="page_name">Hemsidans namn</label>
+                                <input id="page_name" type="text" name="page_name" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Slogan (om ni har någon)</label>
-                                <input id="" type="text" name="tags" class="form-control">
+                                <label for="page_slogan">Slogan (om ni har någon)</label>
+                                <input id="page_slogan" type="text" name="page_slogan" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -172,38 +173,38 @@
                     <hr />
 
                     <div class="form-group">
-                        <label for="namn_undersidor">Vilka undersidor önskas? Separeras med komman.</label>
-                        <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control">
+                        <label for="pages">Vilka undersidor önskas? Separeras med komman.</label>
+                        <input id="pages" type="text" data-role="tagsinput" name="pages" class="form-control" required>
                         <small class="form-text text-muted">Ex. Hem, Om, Team, Kontakt</small>
                     </div>
 
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input contact_page-toggle" id="contact_page">
-                        <label class="form-check-label" for="contact_page">Behöver ni en kontaktsida?</label>
+                        <input type="checkbox" class="form-check-input contact_page-toggle" id="contact_check" name="contact_check" value="1">
+                        <label class="form-check-label" for="contact_check">Behöver ni en kontaktsida?</label>
                     </div>
 
                     <div class="row contact_page-show">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Telefonnummer</label>
-                                <input id="namn_undersidor" type="text" name="tags" class="form-control">
+                                <label for="contact_phone">Telefonnummer</label>
+                                <input id="contact_phone" type="text" name="contact_phone" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="namn_undersidor">E-Post</label>
-                                <input id="namn_undersidor" type="text" name="tags" class="form-control">
+                                <label for="contact_email">E-Post</label>
+                                <input id="contact_email" type="text" name="contact_email" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="namn_undersidor">Besöksadress</label>
-                                <input id="namn_undersidor" type="text" name="tags" class="form-control">
+                                <label for="contact_address">Besöksadress</label>
+                                <input id="contact_address" type="text" name="contact_address" class="form-control">
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Om ni vill presentera öppettider, fyll i det här.</label>
-                                <textarea class="form-control" placeholder="Ex:
+                                <label for="contact_hours">Om ni vill presentera öppettider, fyll i det här.</label>
+                                <textarea id="contact_hours" class="form-control" name="contact_hours" placeholder="Ex:
 Vardagar 09-17
 Helger: 09-14" rows="4"></textarea>
                             </div>
@@ -211,15 +212,15 @@ Helger: 09-14" rows="4"></textarea>
                     </div>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input contact_form-toggle" id="contact_form">
-                        <label class="form-check-label" for="contact_form">Behöver ni ett kontaktformulär som kan
+                        <input type="checkbox" class="form-check-input contact_form-toggle" id="contact_form_check" name="contact_form_check" value="1">
+                        <label class="form-check-label" for="contact_form_check">Behöver ni ett kontaktformulär som kan
                             skicka mail?</label>
                     </div>
 
                     <div class="form-group contact_form-show">
-                        <label for="namn_undersidor">Fyll i vilken mail dessa ska skickas till
+                        <label for="contact_form_mail">Fyll i vilken mail dessa ska skickas till
                         </label>
-                        <input id="" type="text" name="tags" class="form-control">
+                        <input id="contact_form_mail" type="text" name="contact_form_mail" class="form-control">
                         <small class="form-text text-muted">Ifall ni vill ha en ny mail bunden till hemsidan, lämna
                             detta tomt.</small>
                     </div>
@@ -227,29 +228,29 @@ Helger: 09-14" rows="4"></textarea>
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input languages-toggle" id="languages">
-                        <label class="form-check-label" for="languages">Behöver ni hemsidan på flera språk?</label>
+                        <input type="checkbox" class="form-check-input languages-toggle" id="languages_check" name="languages_check" value="1">
+                        <label class="form-check-label" for="languages_check">Behöver ni hemsidan på flera språk?</label>
                     </div>
 
                     <div class="form-group languages-show">
-                        <label for="namn_undersidor">Fyll i samtliga språk och separera med komman.</label>
-                        <input id="namn_undersidor" type="text" data-role="tagsinput" name="tags" class="form-control mb-3">
+                        <label for="page_languages">Fyll i samtliga språk och separera med komman.</label>
+                        <input id="page_languages" type="text" data-role="tagsinput" name="page_languages" class="form-control mb-3">
                     </div>
 
                     <hr>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input login-toggle" id="login">
-                        <label class="form-check-label" for="login">Behöver ni någon inloggning?</label>
+                        <input type="checkbox" class="form-check-input login-toggle" id="login_check" name="login_check" value="1">
+                        <label class="form-check-label" for="login_check">Behöver ni någon inloggning?</label>
                     </div>
 
                     <div class="form-group login-show">
-                        <label for="namn_undersidor">Fyll i syfte
+                        <label for="login_text">Fyll i syfte
                             <small class="form-text text-muted">Om det ska vara
                                 administrativt eller för användare tex. Gärna så detaljerat som möjligt.</small>
                         </label>
 
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea id="login_text" name="login_text" class="form-control" rows="3"></textarea>
                     </div>
 
                     <hr>
@@ -260,47 +261,47 @@ Helger: 09-14" rows="4"></textarea>
                             önskemål, som jag också äger licens
                             för.<br/>
                             Vill ni ha en mall jag ännu inte äger licens för, så hittar ni dessa
-                            <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a> och <a
-                                href="https://wrapbootstrap.com/templates?bootstrap=4">här</a>.</small>
+                            <a href="https://wrapbootstrap.com/templates?bootstrap=5">här</a>, <a
+                                href="https://wrapbootstrap.com/templates?bootstrap=4">här</a> och <a href="https://themes.getbootstrap.com/" target="_blank">här</a>.</small>
                     </p>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Unify (<a href="https://htmlstream.com/preview/unify-v2.6.3/index.html">Visa</a>)
+                        <input class="form-check-input" type="radio" name="template" id="template1"
+                               value="Unify" checked>
+                        <label class="form-check-label" for="template1">
+                            Unify (<a href="https://htmlstream.com/preview/unify-v2.6.3/index.html" target="_blank">Visa</a>)
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="template" id="template2"
+                               value="Smarty">
+                        <label class="form-check-label" for="template2">
                             Smarty (<a href="https://smarty.stepofweb.com/3.1.3/html_frontend/overview.html"
                                        target="_blank">Visa</a>)
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
-                            Inspinia (<a href="http://webapplayers.com/inspinia_admin-v2.9.4/">Visa</a>)
+                        <input class="form-check-input" type="radio" name="template" id="template3"
+                               value="Inspinia">
+                        <label class="form-check-label" for="template3">
+                            Inspinia (<a href="http://webapplayers.com/inspinia_admin-v2.9.4/" target="_blank">Visa</a>)
                         </label>
                     </div>
 
                     <div class="form-check pb-3">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="template" id="template_other_check"
+                               value="Other">
+                        <label class="form-check-label" for="template_other_check">
                             Annat (fyll i nedan)
                         </label>
                     </div>
 
                     <div class="form-group">
-                        <label for="namn_undersidor">Om ni vill använda en annan mall så kan ni klistra in länk eller
+                        <label for="template_other">Om ni vill använda en annan mall så kan ni klistra in länk eller
                             namnet på mallen nedan.</label>
-                        <input id="namn_undersidor" type="text" name="tags" class="form-control col-12 col-md-6">
+                        <input id="template_other" type="text" name="template_other" class="form-control col-12 col-md-6">
                     </div>
 
                     <hr>
@@ -318,33 +319,33 @@ Helger: 09-14" rows="4"></textarea>
 
                     <h6>Webb-Paket</h6>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="package" id="package1"
+                               value="Standard" checked>
+                        <label class="form-check-label" for="package1">
                             Standard
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="package" id="package2"
+                               value="VPS">
+                        <label class="form-check-label" for="package2">
                             VPS
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="package" id="package3"
+                               value="Har redan (integrering)">
+                        <label class="form-check-label" for="package3">
                             Har redan (behöver hjälp med integrering)
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                               value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="package" id="package4"
+                               value="Har redan (endast filer)">
+                        <label class="form-check-label" for="package4">
                             Har redan (behöver endast filer för hemsidan)
                         </label>
                     </div>
@@ -352,9 +353,9 @@ Helger: 09-14" rows="4"></textarea>
                     <hr />
 
                     <div class="form-group">
-                        <label for="namn_undersidor">Om ni har något att tillägga så kan ni fylla i detta nedan
+                        <label for="text_extra">Om ni har något att tillägga så kan ni fylla i detta nedan
                             (fritext).</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea id="text_extra" name="text_extra" class="form-control" rows="3"></textarea>
                     </div>
 
                     <hr />
@@ -362,22 +363,29 @@ Helger: 09-14" rows="4"></textarea>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Företagsnamn / Fullständigt namn </label>
-                                <input id="" type="text" name="tags" class="form-control">
+                                <label for="full_name">Fullständigt namn </label>
+                                <input id="full_name" type="text" name="full_name" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">Org. Nummer / Personnummer</label>
-                                <input id="" type="text" name="tags" class="form-control">
+                                <label for="company_name">Företagsnamn</label>
+                                <input id="company_name" type="text" name="company_name" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="namn_undersidor">E-Post</label>
-                                <input id="" type="email" name="tags" class="form-control">
+                                <label for="company_number">Org. Nummer / Personnummer</label>
+                                <input id="company_number" type="text" name="company_number" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="email">E-Post (för fakturering och utskick)</label>
+                                <input id="email" type="email" name="email" class="form-control" required>
                             </div>
                         </div>
                     </div>
@@ -392,9 +400,9 @@ Helger: 09-14" rows="4"></textarea>
                     </div>
 
                     <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1"
-                               value="option1" required>
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="checkbox" name="accepted" id="accepted"
+                               value="1" required>
+                        <label class="form-check-label" for="accepted">
                             Jag bekräftar och godkänner informationen som står i rutan ovan (<span
                                 class="small text-primary">*</span>).
                         </label>
@@ -564,6 +572,8 @@ Helger: 09-14" rows="4"></textarea>
 <script src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
 <script src="assets/plugins/slick-carousel/slick.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js" ></script>
+
 <!-- Custom scripts for this theme-->
 <script src="js/scripts.js"></script>
 
@@ -627,6 +637,8 @@ Helger: 09-14" rows="4"></textarea>
         $(".login-toggle").click(function () {
             $(".login-show").slideToggle()
         });
+
+        $("#submitForm").validate();
     });
 </script>
 

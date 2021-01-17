@@ -26,6 +26,8 @@
     <link href="assets/plugins/slick-carousel/slick.css" rel="stylesheet"/>
     <!-- Custom styles for this theme-->
     <link href="css/styles.css" rel="stylesheet"/>
+
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet"/>
 </head>
 </html>
 <body id="page-top">
@@ -68,6 +70,12 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col text-center">
+                @if(session()->has('status'))
+                    <div class="alert alert-success mb-3" role="alert">
+                        <i class="fa fa-check mr--3"></i> {{ session('status') }}
+                    </div>
+                @endif
+
                 <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
                 <hr class="primary small"/>
                 <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>

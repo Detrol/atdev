@@ -33,6 +33,10 @@ Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class,
 Route::get('sendbasicemail',[\App\Http\Controllers\HomeController::class, 'basic_mail']);
 Route::get('sendhtmlemail',[\App\Http\Controllers\HomeController::class, 'contact_mail'])->name('contact_mail');
 
+Route::post('submit_post',[\App\Http\Controllers\HomeController::class, 'submit_post'])->name('submit_post');
+
+Route::get('/mission/{id}',[\App\Http\Controllers\HomeController::class, 'mission'])->name('mission');
+
 # If Admin or other Prefix pages
 /*
 Route::prefix('dashboard')->middleware(['auth', 'verified')->group(function () {
