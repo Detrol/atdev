@@ -519,7 +519,7 @@
                 <h2 class="page-section-heading text-uppercase text-center">{!! __("home.contact_me_head") !!}</h2>
                 <p class="lead m-0 text-center">{!! __("home.contact_me_title") !!}</p>
                 <hr class="primary small mb-5"/>
-                <form name="sentMessage" novalidate="novalidate" action="{{ route('contact_mail') }}">
+                <form id="contact-form" name="sentMessage" novalidate="novalidate" action="{{ route('contact_mail') }}">
                     @csrf
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
