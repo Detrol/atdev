@@ -66,7 +66,7 @@ class HomeController extends Controller
 Ni kommer snart att bli kontaktade för ytterligare information rörande arbetet.<br/><br/>
 
 Nedan finner ni en länk där ni kan se status och information.<br/>
-<a href='https://atdev.me/mission/'" . $mission->unique_id . ">https://atdev.me/mission/'" . $mission->unique_id . "</a><br/><br/>
+<a href='https://atdev.me/mission/" . $mission->unique_id . "'>https://atdev.me/mission/" . $mission->unique_id . "</a><br/><br/>
 
 Tack för er bokning!<br/>
 Mvh Andreas";

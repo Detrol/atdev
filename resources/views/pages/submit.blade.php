@@ -505,7 +505,7 @@ Helger: 09-14" rows="4"></textarea>
                 <p>Beställer ni detta så hjälper jag er med registrering av Domän, Webbhotell, E-Post och Cloudflare.</p>
                 <p>Dessa registreras då via Loopia - som är en av sveriges äldsta och tryggaste värdar, som i skrivande stund kostar från 89kr/mån(39kr/mån första året).</p>
 
-                <div class="alert alert-info small p-2"><strong>Pris:</strong> 3000 kr</div>
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 2000 kr</div>
 
                 <p class="lead font-weight-normal mb-0">Paket VPS</p>
                 <p>Beställer ni detta så hjälper jag er med Domän, VPS, E-Post och Cloudflare.</p>
@@ -514,7 +514,7 @@ Helger: 09-14" rows="4"></textarea>
 
                 <p>VPS kostar från $5/mån(rekommenderat från $60/mån), och G-Suite $5/mån(per e-post adress).</p>
 
-                <div class="alert alert-info small p-2"><strong>Pris:</strong> 6000 kr</div>
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 4000 kr</div>
 
                 <hr />
 

@@ -552,8 +552,11 @@
                     <div id="success"></div>
                     <div class="row">
                         <div class="form-group col-12">
-                            <button class="btn btn-outline-primary"
-                                    type="submit">{!! __("home.contact_send") !!}</button>
+                            <button class="btn btn-outline-primary g-recaptcha"
+                                    type="submit"
+                                    data-sitekey="6Le2UTAaAAAAAGEqRMTm_6hKzT4ui_ftWnMM7Qqf"
+                                    data-callback='onSubmit'
+                                    data-action='submit'>{!! __("home.contact_send") !!}</button>
                         </div>
                     </div>
                 </form>
@@ -589,6 +592,13 @@
 <script src="js/scripts.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("contact-form").submit();
+    }
+</script>
 </body>
 
 @endsection
