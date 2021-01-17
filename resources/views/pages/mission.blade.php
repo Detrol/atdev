@@ -62,7 +62,7 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col text-center">
-                <h2 class="page-section-heading text-uppercase text-white">Uppdragsdetaljer</h2>
+                <h2 class="page-section-heading text-uppercase text-white">Uppdrag</h2>
                 <p class="lead m-0 text-white">#{{ $mission->unique_id ?? '?' }}</p>
                 <hr class="primary small mb-5"/>
                 <div class="row">
@@ -93,7 +93,7 @@
                                                 {{ $mission->status }}
                                             </div>
                                         </div>
-                                        <h5>Uppdrag</h5>
+                                        <h5>Detaljer</h5>
                                         <div class="row">
                                             <div class="col-12 col-md-6 mb-3">
                                                 <p class="font-weight-bold mb-0">Hemsidans namn</p>
