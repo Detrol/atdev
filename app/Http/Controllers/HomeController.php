@@ -30,7 +30,7 @@ class HomeController extends Controller
             $mail->replyTo($request->email, $request->name);
         });
 
-        return redirect('/home')->with('status', 'Meddelandet är mottaget! Jag hör av mig så fort jag kan.');
+        return redirect('/')->with('status', 'Meddelandet är mottaget! Jag hör av mig så fort jag kan.');
     }
 
     public function submit_post(Request $request)
