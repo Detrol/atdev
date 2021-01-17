@@ -80,6 +80,16 @@ Mvh Andreas";
             //$mail->replyTo($request->email, $request->full_name);
         });
 
+
+        $data2 = array('name' => $request->full_name, 'text' => 'Arbete mottaget', 'type' => 'Arbete mottaget');
+
+        Mail::send('mail', $data2, function ($mail) use ($request) {
+            $mail->to('info@atdev.me', 'ATDev')->subject
+            ('Arbete mottaget');
+            $mail->from('info@atdev.me', 'ATDev');
+            //$mail->replyTo($request->email, $request->full_name);
+        });
+
         return redirect('/mission/' . $mission->unique_id)->with('status', 'Er bokning är nu mottagen! Mer information kommer per E-Post.');
     }
 
