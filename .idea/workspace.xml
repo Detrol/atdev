@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11f5d4fe-4df9-405d-8bae-88174b7a8275" name="Default Changelist" comment="" />
+    <list default="true" id="11f5d4fe-4df9-405d-8bae-88174b7a8275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,7 @@
       <workItem from="1610548879721" duration="599000" />
       <workItem from="1610797865354" duration="15933000" />
       <workItem from="1610839934657" duration="5506000" />
-      <workItem from="1610880693028" duration="15084000" />
+      <workItem from="1610880693028" duration="15384000" />
     </task>
     <servers />
   </component>
