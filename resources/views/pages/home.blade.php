@@ -68,12 +68,12 @@
 <!-- * * * * * * *-->
 <header class="masthead masthead-full text-white" id="start">
     <div class="container h-100">
-        @if(session()->has('status'))
-            <div class="alert alert-success mb-3 text-center" role="alert">
-                <i class="fa fa-check mr--3"></i> {{ session('status') }}
-            </div>
-        @endif
         <div class="row h-100 align-items-center">
+            @if(session()->has('status'))
+                <div class="alert alert-success mb-3 text-center" role="alert">
+                    <i class="fa fa-check mr--3"></i> {{ session('status') }}
+                </div>
+            @endif
             <div class="col text-center">
                 <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
                 <hr class="primary small"/>
