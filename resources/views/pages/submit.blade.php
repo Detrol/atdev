@@ -440,6 +440,14 @@ Helger: 09-14" rows="4"></textarea>
                 för att ordna. Jag erbjuder endast grundläggande som titlar och sidhuvuden.</p>
 
                 <h6>Logotyp</h6>
+                <p>Då jag är programmerare och ej designer så kan jag inte hjälpa er med att designa en egen logotyp.<br />
+                    Men jag kan starkt rekommendera <a href="https://fiverr.com" target="_blank">fiverr</a> för detta.<br />
+                    På denna sidan kan ni hitta designers som skapar logotyper till oftast väldigt bra priser.<br />
+                    Har personligen nyttjat dem till andra projekt.</a> </p>
+
+                <h6>Fakturering</h6>
+                <p>Även om jag vill ha fakturauppgifter vid uppdragsskapandet så kommer ni ej att faktureras före uppdraget är slutfört och alla är nöjda.</p>
+                <p>Detta sker via Cool Company, vilket är ett egenanställningsföretag.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>

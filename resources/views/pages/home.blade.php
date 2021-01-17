@@ -90,7 +90,7 @@
         <hr class="primary small mb-5"/>
         <div class="row">
             <div class="col-12 col-md-6">
-                <img class="img-fluid rounded-circle" src="{{ asset('assets/img/me.jpg') }}" alt=""/>
+                <img class="img-fluid rounded-circle" style="max-width: 350px;" src="{{ asset('assets/img/64653384_619943628510400_7141277663913574400_o.jpg') }}" alt=""/>
             </div>
             <div class="col-12 col-md-6 text-left">
                 {!! __("home.about_me_text") !!}
