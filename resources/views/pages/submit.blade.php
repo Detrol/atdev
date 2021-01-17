@@ -408,7 +408,11 @@ Helger: 09-14" rows="4"></textarea>
                         </label>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Skicka in</button>
+                    <button type="submit"
+                            data-sitekey="6Le2UTAaAAAAAGEqRMTm_6hKzT4ui_ftWnMM7Qqf"
+                            data-callback='onSubmit'
+                            data-action='submit'
+                            class="btn btn-primary">Skicka in</button>
                 </form>
             </div>
         </div>
@@ -454,7 +458,7 @@ Helger: 09-14" rows="4"></textarea>
                     Har personligen nyttjat dem till andra projekt.</a> </p>
 
                 <h6>Fakturering</h6>
-                <p>Även om jag vill ha fakturauppgifter vid uppdragsskapandet så kommer ni ej att faktureras före uppdraget är slutfört och alla är nöjda.</p>
+                <p>Även om jag vill ha faktureringsuppgifter vid uppdragsskapandet så kommer ni ej att faktureras före uppdraget är slutfört och alla är nöjda.</p>
                 <p>Detta sker via Cool Company, vilket är ett egenanställningsföretag.</p>
             </div>
             <div class="modal-footer">
@@ -481,6 +485,10 @@ Helger: 09-14" rows="4"></textarea>
                 <p>Dessa går oftast relativt snabbt att skapa. Beroende på vad sidorna ska innehålla.</p>
 
                 <div class="alert alert-info small p-2"><strong>Pris:</strong> 2000 kr/undersida</div>
+
+                <p>För såkallade "One Page" sidor som är uppdelat i sektioner snarare än undersidor så tar jag betalt per sektion.</p>
+
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 1500 kr/sektion</div>
 
                 <h6>Avancerade hemsidor</h6>
                 <p>För mer avancerade sidor som kräver databashantering och mer avancerade funktioner så tar jag betalt
@@ -640,6 +648,13 @@ Helger: 09-14" rows="4"></textarea>
 
         $("#submitForm").validate();
     });
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("submitForm").submit();
+    }
 </script>
 
 @endsection
