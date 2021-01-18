@@ -39,3 +39,13 @@ N
 resources/views/mail.blade.php,1\4\14912ebd8e646c26d2ada221e21c229f3e190323
 W
 'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47
+C
+app/Models/User.php,a\9\a90f2e50cb06863b54effced365aa5f1fe7d9c88
+p
+@database/migrations/2021_01_17_130356_add_status_to_missions.php,d\6\d6b796385e9e708137e8f19121f14136dacbc490
+C
+config/purifier.php,8\9\8957de94eaf77c6b12b7ec3e0ddee9f66cf8b440
+o
+?database/migrations/2021_01_12_121431_create_missions_table.php,e\f\ef21955111db9766d5ea6855b5732699a85bfa10
+W
+'resources/views/pages/mission.blade.php,f\b\fb13967876d0faeb96342d79236a2f590283d588

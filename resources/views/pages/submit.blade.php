@@ -48,6 +48,16 @@
 </head>
 </html>
 <body id="page-top">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6W6JY7VC2Q"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6W6JY7VC2Q');
+</script>
+
 <!-- * * * * * * * *-->
 <!-- * Navigation  *-->
 <!-- * * * * * * * *-->
