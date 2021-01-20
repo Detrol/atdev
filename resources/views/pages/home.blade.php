@@ -35,7 +35,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W6JY7VC2Q"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-6W6JY7VC2Q');
@@ -47,9 +51,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-main">
     <div class="container">
         <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/atdevme_logo.png" alt=""/></a>-->
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/logo2.png" alt=""/></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo"
+                                                                        src="assets/img/logo2.png" alt=""/></a>
         <div class="text-white">
-            <!--<a class="btn-link text-white" href="/lang/sv"><img src="{{ asset('assets/img/flags/24x24/SE.png') }}"
+        <!--<a class="btn-link text-white" href="/lang/sv"><img src="{{ asset('assets/img/flags/24x24/SE.png') }}"
                                                                 alt="SV"/></a> &nbsp; &nbsp;
             <a class="btn-link text-white" href="/lang/en"><img src="{{ asset('assets/img/flags/24x24/US.png') }}" alt="SV"/></a>-->
         </div>
@@ -108,7 +113,8 @@
         <hr class="primary small mb-5"/>
         <div class="row">
             <div class="col-12 col-md-6">
-                <img class="img-fluid rounded-circle" style="max-width: 350px;" src="{{ asset('assets/img/64653384_619943628510400_7141277663913574400_o.jpg') }}" alt=""/>
+                <img class="img-fluid rounded-circle" style="max-width: 350px;"
+                     src="{{ asset('assets/img/64653384_619943628510400_7141277663913574400_o.jpg') }}" alt=""/>
             </div>
             <div class="col-12 col-md-6 text-left">
                 {!! __("home.about_me_text") !!}
@@ -522,7 +528,7 @@
 <!-- * * * * * * * * * *-->
 <!-- * Contact Section *-->
 <!-- * * * * * * * * * *-->
-<section class="page-section" id="contact">
+<section class="page-section bg-white" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-8 mx-auto">
@@ -577,20 +583,31 @@
 <!-- * * * * * *-->
 <!-- * Footer  *-->
 <!-- * * * * * *-->
-<footer class="footer text-center text-white-50">
+<footer class="footer text-center text-white">
     <div class="container">
         <div class="col align-self-center">
             <h5 class="text-uppercase"><i class="fas fa-envelope fa-fw"></i>Email</h5>
             <a class="text-white-50" href="mailto:mail@example.com">info@atdev.me</a>
         </div>
         <div class="footer-social">
-            <a class="px-3 text-white-50" href="#"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a><a
-                class="px-3 text-white-50" href="#"><i class="fab fa-twitter fa-2x fa-fw"></i></a><a
-                class="px-3 text-white-50" href="#"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a>
+            <a class="px-3 text-white" href="#"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a><a
+                class="px-3 text-white" href="#"><i class="fab fa-twitter fa-2x fa-fw"></i></a><a
+                class="px-3 text-white" href="#"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a>
         </div>
         <div class="footer-copyright">&copy; 2021 ATDev.me</div>
+        <div class="col align-self-center mt-3">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://app.termly.io/document/cookie-policy/1ec93bbb-1950-41b3-ad9c-371bed4737c9" target="_blank">Cookies</a></li>
+                <li class="list-inline-item"><a href="https://app.termly.io/document/privacy-policy/0b616b0b-ca10-4d02-b43e-8a6dc436b520" target="_blank">Privacy</a></li>
+                <li class="list-inline-item"><a href="https://app.termly.io/document/terms-of-use-for-website/080c9bba-0a92-467b-85f0-f7631887ac15" target="_blank">Terms</a></li>
+                <li class="list-inline-item"><a href="https://app.termly.io/document/disclaimer/134f3e3a-7807-4c58-8f98-b3895ae0b57c" target="_blank">Disclaimer</a></li>
+            </ul>
+        </div>
+        <button class="termly-cookie-preference-button" type="button" style="background: white; width: 165px; height: 30px; border-radius: 3px; border: 1px solid #5f7d9c; font-family: Roboto, Arial; font-size: 10px; color: #5f7d9c; font-weight: 600; box-sizing: border-box; cursor: pointer; padding: 0; outline: none;" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
     </div>
 </footer>
+
+
 <!-- Bootstrap core JavaScript-->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -608,6 +625,19 @@
     function onSubmit(token) {
         document.getElementById("contact-form").submit();
     }
+</script>
+
+<script>
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://app.termly.io/embed.min.js';
+        s.id = '7f8d4e4a-fe08-4427-a465-d2ce2169abca';
+        s.setAttribute("data-name", "termly-embed-banner");
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
 </script>
 </body>
 
