@@ -23,7 +23,7 @@ return [
     'process_title_1' => 'Kundintervju',
     'process_text_1' => 'Först måste jag veta vad du vill ha och förväntar dig.<br>
                         Du kan läsa mer och boka mig direkt <a href="/submit">här</a>.',
-    'process_title_2' => 'Skapa',
+    'process_title_2' => 'Skapande',
     'process_text_2' => 'När byggnationen har börjat kommer vi att hålla en öppen dialog under hela processen för att se till att allt är enligt dina behov.',
     'process_title_3' => 'Släpp',
     'process_text_3' => 'När allt är klart hjälper jag dig att konfigurera in allt om det behövs. Domän, webbserver, e-post och så vidare.',

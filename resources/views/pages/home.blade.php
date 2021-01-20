@@ -33,7 +33,7 @@
 <body id="page-top">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W6JY7VC2Q"></script>
-<script>
+<script type="text/plain" data-categories="analytics">
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
