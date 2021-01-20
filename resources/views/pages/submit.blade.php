@@ -435,7 +435,7 @@ Helger: 09-14" rows="4"></textarea>
             </div>
             <div class="modal-body">
                 <h6>Language / technology</h6>
-                <p>JI write all code in HTML, CSS, JS (jQuery), PHP (Laravel) together with MySQL for databases. <br />
+                <p>I write all code in HTML, CSS, JS (jQuery), PHP (Laravel) together with MySQL for databases. <br />
                     Bootstrap 4 & 5 is used for all themes I develop in, to always give you a qualitative design that is always responsive between different devices.</p>
 
                 <h6>Availability</h6>
