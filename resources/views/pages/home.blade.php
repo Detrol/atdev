@@ -94,7 +94,6 @@
                 @endif
 
                 <div class="masthead-subtitle mb-3"><i>"{{ __("home.head_text") }}</i>"</div>
-                    <p class="lead">I am here to help you code a website for yourself or your company.<br /> In either <strong>Swedish</strong> or <strong>English</strong></p>
                 <hr class="primary small"/>
                 <a class="btn btn-outline-light mt-3" href="/submit">Click here to book me!</a>
             </div>
