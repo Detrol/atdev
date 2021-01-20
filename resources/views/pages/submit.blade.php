@@ -438,6 +438,8 @@ Helger: 09-14" rows="4"></textarea>
                 <p>I write all code in HTML, CSS, JS (jQuery), PHP (Laravel) together with MySQL for databases. <br />
                     Bootstrap 4 & 5 is used for all themes I develop in, to always give you a qualitative design that is always responsive between different devices.</p>
 
+                <p>I usually host all my content on VPS/Dedicated servers, thus managing and setting them up using Ubuntu. Which gives me plenty of experience in this environment.</p>
+
                 <h6>Availability</h6>
                 <p>Of course, it depends on the demand, and I always try to prioritize one job at a time.
                     But this also depends on how fluid the work and our dialogues are. For example, if I need to wait with information, it can happen
