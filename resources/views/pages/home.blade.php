@@ -47,6 +47,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-main">
     <div class="container">
         <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/atdevme_logo.png" alt=""/></a>-->
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/logo2.png" alt=""/></a>
         <div class="text-white">
             <!--<a class="btn-link text-white" href="/lang/sv"><img src="{{ asset('assets/img/flags/24x24/SE.png') }}"
                                                                 alt="SV"/></a> &nbsp; &nbsp;
@@ -87,8 +88,6 @@
                     </div>
                 @endif
 
-                <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
-                <hr class="primary small"/>
                 <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>
                 <hr class="primary small"/>
                 <a class="btn btn-outline-light mt-3" href="/submit">Klicka här för att boka mig!</a>

@@ -63,6 +63,7 @@
 <!-- * * * * * * * *-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-main">
     <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/logo2.png" alt=""/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
                 class="fas fa-bars"></i></button>
@@ -78,12 +79,10 @@
 <!-- * * * * * * *-->
 <!-- * Masthead *-->
 <!-- * * * * * * *-->
-<header class="masthead masthead-full text-white" id="start">
+<header class="subhead subhead-full text-white" id="start">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col text-center">
-                <img class="masthead-logo mb-4" src="assets/img/atdevme.png" alt=""/>
-                <hr class="primary small"/>
 
                 <form class="">
                     <p class="font-weight-light">Om ni redan har skapat ett uppdrag så kan ni ange ert unika <strong>Uppdrags-ID</strong>
@@ -102,9 +101,6 @@
 
             </div>
         </div>
-    </div>
-    <div class="masthead-scroll">
-        <a class="masthead-scroll-btn js-scroll-trigger" href="#form"><i class="fas fa-angle-down"></i></a>
     </div>
 </header>
 

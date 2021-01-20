@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f5d4fe-4df9-405d-8bae-88174b7a8275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e6ada4d198796f76cd54d71dd729ca4f210568e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e6ada4d198796f76cd54d71dd729ca4f210568e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c8530715f6b05b710e3fa767bada1e4d0297e47" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c8530715f6b05b710e3fa767bada1e4d0297e47" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/submit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +183,9 @@
       <workItem from="1610797865354" duration="15933000" />
       <workItem from="1610839934657" duration="5506000" />
       <workItem from="1610880693028" duration="17332000" />
+      <workItem from="1610971010988" duration="1880000" />
+      <workItem from="1611056135150" duration="1097000" />
+      <workItem from="1611151099927" duration="3022000" />
     </task>
     <servers />
   </component>
