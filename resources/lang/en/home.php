@@ -23,7 +23,7 @@ return [
     'process_title' => 'Here is an overview of how i approach each new project.',
     'process_title_1' => 'Client Interview',
     'process_text_1' => 'At first i need to know what you want and expect.<br>
-                        You will receive an e-mail with all the questions i need to start building.',
+                        You can read more and book me directly <a href="/submit">here</a>',
     'process_title_2' => 'Create',
     'process_text_2' => 'Once the building has commenced, we will keep an open dialog during the whole process, to make sure everything is according to your needs.',
     'process_title_3' => 'Release',
@@ -33,7 +33,7 @@ return [
     'testimonials_head' => 'Testimonials',
     'testimonials_title' => 'What my clients have told me',
     'contact_me_head' => 'Contact Me',
-    'contact_me_title' => 'Let me know about what you need help with and i will let you know what i can do to help you!',
+    'contact_me_title' => 'Let me know if you have any questions or concerns, and will get back to you as soon as I can!',
     'contact_name' => 'Name',
     'contact_email' => 'E-Mail',
     'contact_message' => 'Message',

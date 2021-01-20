@@ -95,7 +95,7 @@
 
                 <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>
                 <hr class="primary small"/>
-                <a class="btn btn-outline-light mt-3" href="/submit">Klicka här för att boka mig!</a>
+                <a class="btn btn-outline-light mt-3" href="/submit">Click here to book me!</a>
             </div>
         </div>
     </div>
