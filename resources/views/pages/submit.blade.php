@@ -459,7 +459,7 @@ Helger: 09-14" rows="4"></textarea>
 
                 <h6>Logotyp</h6>
                 <p>Då jag är programmerare och ej designer så kan jag inte hjälpa er med att designa en egen logotyp.<br />
-                    Men jag kan starkt rekommendera <a href="https://fiverr.com" target="_blank">fiverr</a> för detta.<br />
+                    Men jag kan starkt rekommendera <a href="http://www.fiverr.com/s2/b80aa70918" target="_blank">fiverr</a> för detta.<br />
                     På denna sidan kan ni hitta designers som skapar logotyper till oftast väldigt bra priser.<br />
                     Har personligen nyttjat dem till andra projekt.</a> </p>
 

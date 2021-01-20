@@ -587,12 +587,12 @@
     <div class="container">
         <div class="col align-self-center">
             <h5 class="text-uppercase"><i class="fas fa-envelope fa-fw"></i>Email</h5>
-            <a class="text-white-50" href="mailto:mail@example.com">info@atdev.me</a>
+            <a class="text-white-50" href="mailto:info@atdev.me">info@atdev.me</a>
         </div>
         <div class="footer-social">
-            <a class="px-3 text-white" href="#"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a><a
-                class="px-3 text-white" href="#"><i class="fab fa-twitter fa-2x fa-fw"></i></a><a
-                class="px-3 text-white" href="#"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a>
+            <a class="px-3 text-white" href="https://facebook.com/ATDev-104035658344178" target="_blank"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a><a
+                class="px-3 text-white" href="https://twitter.com/ATDev6" target="_blank"><i class="fab fa-twitter fa-2x fa-fw"></i></a><a
+                class="px-3 text-white" href="https://linkedin.com/in/andreas-thun-5a6a9049" target="_blank"><i class="fab fa-linkedin-in fa-2x fa-fw"></i></a>
         </div>
         <div class="footer-copyright">&copy; 2021 ATDev.me</div>
         <div class="col align-self-center mt-3">
