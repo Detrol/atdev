@@ -488,7 +488,7 @@
 <!-- * * * * * * * * * * * * *-->
 <!-- * Testimonials Section  *-->
 <!-- * * * * * * * * * * * * *-->
-<section class="page-section" id="testimonials">
+<section class="page-section callout3 text-white" id="testimonials">
     <div class="container">
         <h2 class="page-section-heading text-uppercase text-center">{!! __("home.testimonials_head") !!}</h2>
         <p class="lead m-0 text-center">{!! __("home.testimonials_title") !!}</p>
@@ -522,7 +522,7 @@
 <!-- * * * * * * * * * *-->
 <!-- * Contact Section *-->
 <!-- * * * * * * * * * *-->
-<section class="page-section bg-black text-white" id="contact">
+<section class="page-section" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-8 mx-auto">

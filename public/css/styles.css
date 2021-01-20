@@ -10731,6 +10731,19 @@ hr.small {
     line-height: 1.25;
 }
 
+.callout3 {
+    padding: 6.25rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../assets/img/matthew-henry-VviFtDJakYk-unsplash.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img/matthew-henry-VviFtDJakYk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.callout3 .callout-text {
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
 @media (min-width: 992px) {
   .callout {
     background-attachment: fixed;
