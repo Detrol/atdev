@@ -93,7 +93,8 @@
                     </div>
                 @endif
 
-                <div class="masthead-subtitle"><i>"{{ __("home.head_text") }}</i>"</div>
+                <div class="masthead-subtitle mb-3"><i>"{{ __("home.head_text") }}</i>"</div>
+                    <p class="lead">I am here to help you code a website for yourself or your company.<br /> In either <strong>Swedish</strong> or <strong>English</strong></p>
                 <hr class="primary small"/>
                 <a class="btn btn-outline-light mt-3" href="/submit">Click here to book me!</a>
             </div>
@@ -109,7 +110,7 @@
 <section class="page-section text-center bg-light" id="about">
     <div class="container">
         <h2 class="page-section-heading text-uppercase">{{ __("home.about_me") }}</h2>
-        <p class="lead m-0">{{ __("home.about_me_title") }}</p>
+        <p class="lead m-0">I am here to help you code a website for yourself or your company.<br /> In either <strong>Swedish</strong> or <strong>English</strong></p>
         <hr class="primary small mb-5"/>
         <div class="row">
             <div class="col-12 col-md-6">
