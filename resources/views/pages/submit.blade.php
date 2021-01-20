@@ -69,7 +69,7 @@
                 class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Startsidan</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Start Page</a></li>
             </ul>
         </div>
 
