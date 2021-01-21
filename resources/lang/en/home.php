@@ -23,7 +23,7 @@ return [
     'process_title' => 'Here is an overview of how i approach each new project.',
     'process_title_1' => 'Client Interview',
     'process_text_1' => 'At first i need to know what you want and expect.<br>
-                        You can read more and book me directly <a href="/submit">here</a>',
+                        You can read more and hire me directly <a href="/submit">here</a>',
     'process_title_2' => 'Create',
     'process_text_2' => 'Once the building has commenced, we will keep an open dialog during the whole process, to make sure everything is according to your needs.',
     'process_title_3' => 'Release',
