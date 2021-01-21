@@ -21,6 +21,12 @@ class HomeController extends Controller
 
     public function contact_mail(Request $request)
     {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
+
         $data = array('name' => $request->name, 'text' => $request->message, 'type' => 'Kontaktformulär');
 
         Mail::send('mail', $data, function ($mail) use ($request) {
@@ -35,6 +41,16 @@ class HomeController extends Controller
 
     public function submit_post(Request $request)
     {
+        $request->validate([
+            'full_name' => 'required',
+            'company_name' => 'required',
+            'company_number' => 'required',
+            'email' => 'required',
+            'page_name' => 'required',
+            'pages' => 'required',
+            'accepted' => 'required',
+        ]);
+
         $mission = new Missions();
         $mission->full_name = $request->full_name;
         $mission->company_name = $request->company_name;
