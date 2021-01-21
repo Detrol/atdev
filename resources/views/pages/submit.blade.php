@@ -91,7 +91,7 @@
                 <form class="">
                     <p class="font-weight-light">If you have already created an assignment, you can enter your unique <strong> Assignment ID </strong>
                         below to see status and information. <br />
-                        If you want to book me, you can scroll down to find the booking form.</p>
+                        If you want to hire me, you can scroll down to find the form.</p>
                     <div class="input-group mb-3 custom-centered">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">#</span>
