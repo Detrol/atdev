@@ -27,7 +27,94 @@
     background-color: #fefde5 !important;
 }
 
-
+#navbar-main {
+    min-height: 66px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#navbar-main .navbar-brand-logo {
+    height: 2.5rem;
+}
+#navbar-main .navbar-toggler {
+    border: 0;
+    color: #fff;
+}
+#navbar-main .navbar-toggler:active {
+    color: rgba(255, 255, 255, 0.5);
+}
+#navbar-main .navbar-toggler:focus {
+    outline: none;
+}
+#navbar-main .nav-item {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+#navbar-main .nav-item:first-child {
+    margin-top: 1rem;
+}
+#navbar-main .nav-item:last-child {
+    margin-bottom: 1rem;
+}
+#navbar-main .nav-item .nav-link {
+    font-size: 1rem;
+    color: #fff;
+}
+#navbar-main .nav-item .nav-link:active {
+    color: rgba(255, 255, 255, 0.5);
+}
+#navbar-main .nav-item .nav-link.active {
+    color: #ef4035;
+}
+#navbar-main .nav-item .dropdown-menu {
+    margin-top: 0;
+}
+#navbar-main .nav-item .dropdown-menu .dropdown-item {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.65rem 1rem;
+}
+#navbar-main .nav-item .dropdown-menu .dropdown-item:hover {
+    background: inherit;
+    color: #ef4035;
+}
+#navbar-main .nav-item .dropdown-menu .dropdown-item.active:hover {
+    background: #ef4035;
+    color: #fff;
+}
+@media (min-width: 992px) {
+    #navbar-main {
+        -webkit-transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
+        transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
+        padding: 1.5rem 0;
+        background: transparent;
+    }
+    #navbar-main .navbar-brand {
+        -webkit-transition: all 0.15s ease-in-out;
+        transition: all 0.15s ease-in-out;
+    }
+    #navbar-main .navbar-brand:hover {
+        opacity: 0.75;
+    }
+    #navbar-main .nav-item {
+        margin: 0 !important;
+    }
+    #navbar-main .nav-item .nav-link {
+        padding: 1rem;
+        border-bottom: 0.3125rem solid transparent;
+        border-top: 0.3125rem solid transparent;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+    #navbar-main .nav-item .nav-link.active {
+        border-bottom: 0.3125rem solid #ef4035;
+    }
+    #navbar-main .nav-item .nav-link:hover {
+        color: #ef4035;
+    }
+    #navbar-main.collapsed {
+        padding: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
 
 .subhead {
     position: relative;
