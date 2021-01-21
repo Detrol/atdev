@@ -50,9 +50,13 @@
 <body id="page-top">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W6JY7VC2Q"></script>
-<script>
+<script type="text/plain" data-categories="analytics">
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-6W6JY7VC2Q');
@@ -614,7 +618,20 @@ Helger: 09-14" rows="4"></textarea>
 
 <style type="text/css">
     .bootstrap-tagsinput {
+        display: block;
         width: 100%;
+        height: calc(1.5em + 1.5rem + 2px);
+        padding: 0.75rem 1.25rem;
+        font-size: 1.125rem;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0;
+        -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
 
     .label-info {
