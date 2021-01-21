@@ -489,6 +489,11 @@ Helger: 09-14" rows="4"></textarea>
                 </button>
             </div>
             <div class="modal-body">
+                <div class="alert alert-secondary small p-2">All prices are excluding VAT(Tax).<br />
+                    An administrative cost of 6% of the total amount is also added when invoicing via Cool Company. This is what they charge me for their services.</div>
+
+                <hr />
+
                 <h6>Simpler websites</h6>
                 <p>For simpler websites, where we only talk about information that is shown on subpages, I charge per
                     page. </p>
@@ -552,11 +557,6 @@ Helger: 09-14" rows="4"></textarea>
                 <span class="text-muted">Cloudflare is a service that all websites should use.
                         Which works as a <a href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/" target="_blank">CDN</a> to maximize speed and at the same time use a soft firewall to protect against intrusion and DDoS attacks, among other things.
                  Cloudflare also offers different payment plans, but the free one is good for most people.</span>
-
-                <hr />
-
-                <div class="alert alert-secondary small p-2">All prices are excluding VAT(Tax).<br />
-                    An administrative cost of 6% of the total amount is also added when invoicing via Cool Company. This is what they charge me for their services, so this is to balance out my income.</div>
 
             </div>
             <div class="modal-footer">
