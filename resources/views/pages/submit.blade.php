@@ -147,7 +147,7 @@
                 <p class="lead m-0 text-center">Fill in the information below as carefully as you can.</p>
                 <hr class="primary small"/>
                 <div class="text-center mb-5">
-                    <button class="btn btn-outline-light" data-toggle="modal" data-target="#info">More Information
+                    <button class="btn btn-outline-light mb-3" data-toggle="modal" data-target="#info">More Information
                     </button>
                     <button class="btn btn-outline-light" data-toggle="modal" data-target="#priser">Price information
                     </button>
@@ -499,11 +499,11 @@ Helger: 09-14" rows="4"></textarea>
                     page. </p>
                 <p>These are the most common and usually relatively quick to create. Depending on what the pages should contain.</p>
 
-                <div class="alert alert-info small p-2"><strong>Price:</strong> 2000 SEK/subpage</div>
+                <div class="alert alert-info small p-2"><strong>Price:</strong> 1500 SEK/subpage</div>
 
                 <p>For so-called "One Page" pages that are divided into sections rather than subpages, I charge per section.</p>
 
-                <div class="alert alert-info small p-2"><strong>Pris:</strong> 1500 SEK/section</div>
+                <div class="alert alert-info small p-2"><strong>Pris:</strong> 1000 SEK/section</div>
 
                 <h6>Advanced websites</h6>
                 <p>For more advanced sites that require database management and more advanced functions, I charge
