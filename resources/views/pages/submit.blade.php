@@ -520,7 +520,7 @@ Helger: 09-14" rows="4"></textarea>
                 <p> The whole process is too long to explain here, but it takes more than twice as long to encode more than one language.</p>
                 <p>I can write in either Swedish or English. With other languages i need your help or to use a translation software</p>
 
-                <div class="alert alert-info small p-2"><strong>Price:</strong> 2000 SEK per language and subpage.</div>
+                <div class="alert alert-info small p-2"><strong>Price:</strong> 1500 SEK per language and subpage.</div>
 
                 <div class="alert alert-secondary small p-2">Two languages for all subpages will thus be about double the final price.</div>
 
