@@ -128,7 +128,7 @@
                                                 <p class="font-weight-bold mb-0">Languages</p>
                                                 <input id="pages" type="text" data-role="tagsinput" name="pages"
                                                        class="form-control"
-                                                       value="{{ $mission->languages ?? 'Ej specificerat' }}" disabled>
+                                                       value="{{ $mission->languages ?? 'Not Specified' }}" disabled>
                                             </div>
 
                                             @if ($mission->template_other)
