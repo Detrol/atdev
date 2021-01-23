@@ -48,7 +48,7 @@
                 class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Startsidan</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             </ul>
         </div>
 
@@ -62,7 +62,7 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col text-center">
-                <h2 class="page-section-heading text-uppercase text-white">Uppdrag</h2>
+                <h2 class="page-section-heading text-uppercase text-white">Mission Details</h2>
                 <p class="lead m-0 text-white">#{{ $mission->unique_id ?? '?' }}</p>
                 <hr class="primary small mb-5"/>
                 <div class="row">
@@ -71,17 +71,17 @@
                             <div class="row">
                                 <div class="col-12 col-md-4 order-0 order-md-1 mb-3">
                                     <div class="simpleBox bg-white">
-                                        <h5>Personuppgifter</h5>
-                                        <p class="font-weight-bold mb-0">Namn</p>
+                                        <h5>Personal information</h5>
+                                        <p class="font-weight-bold mb-0">Name</p>
                                         <span class="font-weight-normal">{{ $mission->full_name }}</span><br/>
 
-                                        <p class="font-weight-bold mb-0">E-Post</p>
+                                        <p class="font-weight-bold mb-0">E-Mail</p>
                                         <span class="font-weight-normal">{{ $mission->email }}</span><br/>
 
-                                        <p class="font-weight-bold mb-0">Företag</p>
+                                        <p class="font-weight-bold mb-0">Company Name</p>
                                         <span class="font-weight-normal">{{ $mission->company_name }}</span><br/>
 
-                                        <p class="font-weight-bold mb-0">Org. / Personnummer</p>
+                                        <p class="font-weight-bold mb-0">Org. / Personal Number</p>
                                         <span class="font-weight-normal">{{ $mission->company_number }}</span><br/>
                                     </div>
                                 </div>
@@ -93,39 +93,39 @@
                                                 {{ $mission->status }}
                                             </div>
                                         </div>
-                                        <h5>Detaljer</h5>
+                                        <h5>Details</h5>
                                         <div class="row">
                                             <div class="col-12 col-md-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Hemsidans namn</p>
+                                                <p class="font-weight-bold mb-0">Webpage name</p>
                                                 <span class="font-weight-normal">{{ $mission->page_name }}</span>
                                             </div>
 
                                             <div class="col-12 col-md-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Hemsidans slogan</p>
+                                                <p class="font-weight-bold mb-0">Webpage slogan</p>
                                                 <span
-                                                    class="font-weight-normal">{{ $mission->page_slogan ?? 'Ej angivet' }}</span>
+                                                    class="font-weight-normal">{{ $mission->page_slogan ?? 'Not Specified' }}</span>
                                             </div>
 
                                             <div class="col-12 mb-3">
-                                                <label for="pages" class="font-weight-bold">Undersidor</label>
+                                                <label for="pages" class="font-weight-bold">Subpages</label>
                                                 <input id="pages" type="text" data-role="tagsinput" name="pages"
                                                        class="form-control" value="{{ $mission->pages }}" disabled>
                                             </div>
 
                                             <div class="col-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Kontaktsida</p>
+                                                <p class="font-weight-bold mb-0">Contact page</p>
                                                 <span
-                                                    class="font-weight-normal">{!! $mission->contact_check === 1 ? 'Ja (<a href="#" data-toggle="modal" data-target="#contact_info">Visa info</a>)' : 'Nej' !!} </span>
+                                                    class="font-weight-normal">{!! $mission->contact_check === 1 ? 'Yes (<a href="#" data-toggle="modal" data-target="#contact_info">Show Info</a>)' : 'No' !!} </span>
                                             </div>
 
                                             <div class="col-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Kontaktformulär</p>
+                                                <p class="font-weight-bold mb-0">Contact form</p>
                                                 <span
-                                                    class="font-weight-normal">{!! $mission->contact_form_check === 1 ? 'Ja (<a href="#" data-toggle="popover" data-placement="top" data-content="'. clean($mission->contact_form_mail) .'">Visa info</a>)' : 'Nej' !!} </span>
+                                                    class="font-weight-normal">{!! $mission->contact_form_check === 1 ? 'Yes (<a href="#" data-toggle="popover" data-placement="top" data-content="'. clean($mission->contact_form_mail) .'">Show Info</a>)' : 'No' !!} </span>
                                             </div>
 
                                             <div class="col-12 mb-3">
-                                                <p class="font-weight-bold mb-0">Språk</p>
+                                                <p class="font-weight-bold mb-0">Languages</p>
                                                 <input id="pages" type="text" data-role="tagsinput" name="pages"
                                                        class="form-control"
                                                        value="{{ $mission->languages ?? 'Ej specificerat' }}" disabled>
@@ -133,38 +133,38 @@
 
                                             @if ($mission->template_other)
                                                 <div class="col-6 mb-3">
-                                                    <p class="font-weight-bold mb-0">Tema</p>
+                                                    <p class="font-weight-bold mb-0">Template</p>
                                                     <span
                                                         class="font-weight-normal">{{ $mission->template_other }}</span>
                                                 </div>
                                             @else
                                                 <div class="col-6 mb-3">
-                                                    <p class="font-weight-bold mb-0">Tema</p>
+                                                    <p class="font-weight-bold mb-0">Template</p>
                                                     <span class="font-weight-normal">{{ $mission->template }}</span>
                                                 </div>
                                             @endif
 
                                             <div class="col-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Inloggning</p>
+                                                <p class="font-weight-bold mb-0">Login</p>
                                                 <span
-                                                    class="font-weight-normal">{!! $mission->login_check === 1 ? 'Ja (<a href="#" data-toggle="popover" data-placement="top" data-content="'. clean($mission->login_text) .'">Visa info</a>)' : 'Nej' !!} </span>
+                                                    class="font-weight-normal">{!! $mission->login_check === 1 ? 'Yes (<a href="#" data-toggle="popover" data-placement="top" data-content="'. clean($mission->login_text) .'">Show Info</a>)' : 'No' !!} </span>
                                             </div>
 
                                             <div class="col-6 mb-3">
-                                                <p class="font-weight-bold mb-0">Paket</p>
+                                                <p class="font-weight-bold mb-0">Package</p>
                                                 <span class="font-weight-normal">{{ $mission->package }}</span>
                                             </div>
 
                                             <div class="col-12 mb-3">
-                                                <p class="font-weight-bold mb-0">Fritext</p>
+                                                <p class="font-weight-bold mb-0">Free text</p>
                                                 <span class="font-weight-normal">{{ $mission->text_extra }}</span>
                                             </div>
 
                                             <div class="col-12">
                                                 <hr/>
 
-                                                <p>Vid frågor eller funderingar rörande er bokning, vänligen kontakta
-                                                    mig på
+                                                <p>For questions or concerns regarding your booking, please contact
+                                                    me on
                                                     <a href="mailto:info@atdev.me">info@atdev.me</a>.</p>
                                             </div>
 
@@ -175,7 +175,7 @@
 
                         @else
                             <div class="simpleBox bg-white">
-                                <strong>Inget uppdrag hittades med detta ID. Vänligen kontrollera igen.</strong>
+                                <strong>No mission was found with this ID. Please check again.</strong>
                             </div>
                         @endif
                     </div>
@@ -191,7 +191,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Kontaktinformation</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Contact information</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -199,28 +199,28 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <p class="font-weight-bold mb-0">Telefonnummer</p>
+                        <p class="font-weight-bold mb-0">Telephone number</p>
                         <span class="font-weight-normal">{{ $mission->contact_phone }}</span>
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <p class="font-weight-bold mb-0">E-Post</p>
+                        <p class="font-weight-bold mb-0">E-Mail</p>
                         <span class="font-weight-normal">{{ $mission->contact_email }}</span>
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <p class="font-weight-bold mb-0">Adress</p>
+                        <p class="font-weight-bold mb-0">Address</p>
                         <span class="font-weight-normal">{{ $mission->contact_address }}</span>
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <p class="font-weight-bold mb-0">Öppettider</p>
+                        <p class="font-weight-bold mb-0">Opening hours</p>
                         <span class="font-weight-normal">{{ $mission->contact_hours }}</span>
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
